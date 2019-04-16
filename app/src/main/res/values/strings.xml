@@ -11,4 +11,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="destination_top_search">景点/酒店/美食/娱乐</string>
     <string name="destination_everybody_play">大家都在玩</string>
+
+    <string name="mine_my">我的</string>
+
 </resources>
