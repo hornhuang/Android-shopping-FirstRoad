@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background_gray"
     tools:context=".fragments.MainJourneyFragment">
 
     <ScrollView
@@ -35,7 +36,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:layout_margin="10dp"
-                app:cardCornerRadius="25sp"
+                app:cardCornerRadius="10sp"
+                android:elevation="0dp"
+                app:cardElevation="0dp"
                 android:background="@color/white">
 
                 <LinearLayout
@@ -44,33 +47,97 @@
                     android:orientation="horizontal"
                     android:padding="20dp">
 
-                    <ImageButton
+                    <LinearLayout
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:src="@color/darkgreen"
-                        android:scaleType="fitXY"/>
+                        android:padding="5dp"
+                        android:orientation="vertical">
 
-                    <ImageButton
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:src="@color/aquamarine"
-                        android:scaleType="fitXY"/>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="3"
+                            android:src="@color/darkgreen"
+                            android:scaleType="fitXY"/>
 
-                    <ImageButton
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:src="@color/goldenrod"
-                        android:scaleType="fitXY"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="景点"/>
 
-                    <ImageButton
+                    </LinearLayout>
+
+                    <LinearLayout
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:src="@color/violet"
-                        android:scaleType="fitXY"/>
+                        android:padding="5dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="3"
+                            android:src="@color/aquamarine"
+                            android:scaleType="fitXY"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="攻略"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="3"
+                            android:src="@color/goldenrod"
+                            android:scaleType="fitXY"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="玩乐"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="3"
+                            android:src="@color/violet"
+                            android:scaleType="fitXY"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="客服"/>
+
+                    </LinearLayout>
 
                 </LinearLayout>
 
@@ -81,7 +148,9 @@
                 android:layout_height="150dp"
                 android:layout_margin="10dp"
                 android:background="@color/black"
-                app:cardCornerRadius="25sp">
+                app:cardCornerRadius="10sp"
+                android:elevation="0dp"
+                app:cardElevation="0dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -263,7 +332,9 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="5dp"
-                app:cardCornerRadius="20dp">
+                app:cardCornerRadius="10sp"
+                android:elevation="0dp"
+                app:cardElevation="0dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -339,7 +410,9 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="5dp"
-                app:cardCornerRadius="20dp">
+                app:cardCornerRadius="10sp"
+                android:elevation="0dp"
+                app:cardElevation="0dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -415,7 +488,9 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="5dp"
-                app:cardCornerRadius="20dp">
+                app:cardCornerRadius="10sp"
+                android:elevation="0dp"
+                app:cardElevation="0dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -491,7 +566,9 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="5dp"
-                app:cardCornerRadius="20dp">
+                app:cardCornerRadius="10sp"
+                android:elevation="0dp"
+                app:cardElevation="0dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"

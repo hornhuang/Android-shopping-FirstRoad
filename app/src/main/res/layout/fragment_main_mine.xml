@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".fragments.MainMineFragment">
 
@@ -20,15 +21,15 @@
 
             <android.support.design.widget.AppBarLayout
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="wrap_content"
                 android:background="@color/white"
                 android:elevation="0dp"
                 app:elevation="0dp">
 
                 <android.support.v7.widget.Toolbar
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    app:layout_scrollFlags="scroll|enterAlways"
+                    android:layout_height="?attr/actionBarSize"
+                    app:layout_scrollFlags="scroll|enterAlways|snap"
                     android:elevation="0dp"
                     app:elevation="0dp">
 
@@ -57,7 +58,7 @@
                             android:layout_width="60dp"
                             android:layout_height="60dp"
                             android:scaleType="fitXY"
-                            android:src="@color/saddlebrown" />
+                            android:src="@color/pink" />
 
                     </LinearLayout>
 
@@ -80,6 +81,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:gravity="center"
+                android:textSize="20sp"
                 android:text="你的昵称" />
 
             <TextView
@@ -91,7 +93,7 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="10dp"
-                android:background="?android:listDivider"/>
+                android:background="@color/background_gray"/>
 
             <!--中部-->
 
@@ -131,7 +133,7 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-                        android:src="@color/tan" />
+                        android:src="@color/transparent_bisque" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -152,7 +154,7 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-                        android:src="@color/tan" />
+                        android:src="@color/darksalmon" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -173,7 +175,7 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-                        android:src="@color/tan" />
+                        android:src="@color/transparent_cornsilk" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -189,7 +191,7 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="10dp"
-                android:background="?android:listDivider"/>
+                android:background="@color/background_gray"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -233,7 +235,7 @@
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_margin="10dp"
-                    android:src="@color/sienna"/>
+                    android:src="@color/orange" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -270,7 +272,7 @@
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_margin="10dp"
-                    android:src="@color/lightgray"/>
+                    android:src="@color/hotpink" />
 
                 <LinearLayout
                     android:layout_width="match_parent"

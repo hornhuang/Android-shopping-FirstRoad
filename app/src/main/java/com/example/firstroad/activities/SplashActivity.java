@@ -6,12 +6,11 @@ import android.os.Bundle;
 import android.view.animation.AlphaAnimation;
 import android.widget.ImageView;
 
-import com.example.firstroad.MainActivity;
 import com.example.firstroad.R;
 
 public class SplashActivity extends AppCompatActivity {
 
-    private final int SPLASH_LENGTH = 300;
+    private final int SPLASH_LENGTH = 2000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,7 +18,7 @@ public class SplashActivity extends AppCompatActivity {
         setContentView(R.layout.activity_splash);
 
         AlphaAnimation alphaAnimation = new AlphaAnimation(0, 1);
-        alphaAnimation.setDuration(1000);
+        alphaAnimation.setDuration(1500);
 
         ImageView imageView = findViewById(R.id.start_page_image);
         imageView.startAnimation(alphaAnimation);

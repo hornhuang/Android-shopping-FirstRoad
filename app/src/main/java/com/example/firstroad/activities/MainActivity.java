@@ -1,6 +1,8 @@
-package com.example.firstroad;
+package com.example.firstroad.activities;
 
+import android.os.Build;
 import android.support.annotation.NonNull;
+import android.support.annotation.RequiresApi;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
@@ -8,12 +10,13 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import com.example.firstroad.activities.BaseActivity;
+import com.example.firstroad.R;
 import com.example.firstroad.fragments.MainDestinationFragment;
 import com.example.firstroad.fragments.MainFindFragment;
 import com.example.firstroad.fragments.MainHomeFragment;
 import com.example.firstroad.fragments.MainJourneyFragment;
 import com.example.firstroad.fragments.MainMineFragment;
+import com.example.firstroad.utils.BottomNavigationViewHelper;
 
 public class MainActivity extends BaseActivity {
 
@@ -137,6 +140,7 @@ public class MainActivity extends BaseActivity {
         transaction = getSupportFragmentManager().beginTransaction();
 
         BottomNavigationView navigationView = findViewById(R.id.navigation);
+        BottomNavigationViewHelper.disableShiftMode(navigationView);//取消缩放 失败
         navigationView.setOnNavigationItemSelectedListener(selectedListener);
 
         navigationView.setSelectedItemId(R.id.navigation_destination);

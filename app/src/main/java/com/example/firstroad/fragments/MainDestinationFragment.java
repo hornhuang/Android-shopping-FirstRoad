@@ -70,10 +70,10 @@ public class MainDestinationFragment extends Fragment {
 
     private void iniBanner(View view){
         List<Integer> images = new ArrayList<>();
-        images.add(R.drawable.text_evc_top_4);
-        images.add(R.drawable.text_evc_top_4);
-        images.add(R.drawable.text_evc_top_4);
-        images.add(R.drawable.text_evc_top_4);
+        images.add(R.drawable.text_evc_top);
+        images.add(R.drawable.text_evc_top);
+        images.add(R.drawable.text_evc_top);
+        images.add(R.drawable.text_evc_top);
         titles.add("2018文化和自然遗产日");
         titles.add("川剧一绝——吐火");
         titles.add("非遗印象 品牌设计方案");
