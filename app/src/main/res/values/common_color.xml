@@ -46,7 +46,7 @@
     <color name="honeydew">#f0fff0</color> <!-- 蜜色 -->
     <color name="aliceblue">#f0f8ff</color> <!-- 艾利斯兰 -->
     <color name="khaki">#f0e68c</color> <!-- 黄褐色 -->
-    <color name="lightcoral">#f08080</color> <!-- 亮珊瑚色 -->
+    <color name="lightcoral">#F08080</color> <!-- 亮珊瑚色 -->
     <color name="palegoldenrod">#eee8aa</color> <!-- 苍麒麟色 -->
     <color name="violet">#ee82ee</color> <!-- 紫罗兰色 -->
     <color name="darksalmon">#e9967a</color> <!-- 暗肉色 -->
@@ -77,13 +77,13 @@
     <color name="lightsteelblue">#b0c4de</color> <!-- 亮钢兰色 -->
     <color name="paleturquoise">#afeeee</color> <!-- 苍宝石绿 -->
     <color name="greenyellow">#adff2f</color> <!-- 黄绿色 -->
-    <color name="lightblue">#add8e6</color> <!-- 亮蓝色 -->
+    <color name="lightblue">#ADD8E6</color> <!-- 亮蓝色 -->
     <color name="darkgray">#a9a9a9</color> <!-- 暗灰色 -->
     <color name="darkgrey">#a9a9a9</color> <!-- 暗灰色 -->
     <color name="brown">#a52a2a</color> <!-- 褐色 -->
     <color name="sienna">#a0522d</color> <!-- 赭色 -->
     <color name="darkorchid">#9932cc</color> <!-- 暗紫色 -->
-    <color name="palegreen">#98fb98</color> <!-- 苍绿色 -->
+    <color name="palegreen">#98FB98</color> <!-- 苍绿色 -->
     <color name="darkviolet">#9400d3</color> <!-- 暗紫罗兰色 -->
     <color name="mediumpurple">#9370db</color> <!-- 中紫色 -->
     <color name="lightgreen">#90ee90</color> <!-- 亮绿色 -->
@@ -99,7 +99,7 @@
     <color name="olive">#808000</color> <!-- 橄榄色 -->
     <color name="purple">#800080</color> <!-- 紫色 -->
     <color name="maroon">#800000</color> <!-- 粟色 -->
-    <color name="aquamarine">#7fffd4</color> <!-- 碧绿色 -->
+    <color name="aquamarine">#7FFFD4</color> <!-- 碧绿色 -->
     <color name="chartreuse">#7fff00</color> <!-- 黄绿色 -->
     <color name="lawngreen">#7cfc00</color> <!-- 草绿色 -->
     <color name="mediumslateblue">#7b68ee</color> <!-- 中暗蓝色 -->
@@ -107,7 +107,7 @@
     <color name="lightslategrey">#778899</color> <!-- 亮蓝灰 -->
     <color name="slategray">#708090</color> <!-- 灰石色 -->
     <color name="slategrey">#708090</color> <!-- 灰石色 -->
-    <color name="olivedrab">#6b8e23</color> <!-- 深绿褐色 -->
+    <color name="olivedrab">#6B8E23</color> <!-- 深绿褐色 -->
     <color name="slateblue">#6a5acd</color> <!-- 石蓝色 -->
     <color name="dimgray">#696969</color> <!-- 暗灰色 -->
     <color name="dimgrey">#696969</color> <!-- 暗灰色 -->

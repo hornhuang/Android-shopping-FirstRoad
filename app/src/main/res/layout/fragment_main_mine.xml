@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".fragments.MainMineFragment">
 
     <ScrollView
@@ -19,21 +20,29 @@
 
             <android.support.design.widget.AppBarLayout
                 android:layout_width="match_parent"
-                android:layout_height="75dp"
-                android:background="@color/white">
+                android:layout_height="60dp"
+                android:background="@color/white"
+                android:elevation="0dp"
+                app:elevation="0dp">
 
                 <android.support.v7.widget.Toolbar
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent">
+                    android:layout_height="match_parent"
+                    app:layout_scrollFlags="scroll|enterAlways"
+                    android:elevation="0dp"
+                    app:elevation="0dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:orientation="horizontal">
+                        android:orientation="horizontal"
+                        android:paddingRight="20dp">
 
                         <ImageView
-                            android:layout_width="75dp"
-                            android:layout_height="75dp" />
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:scaleType="fitXY"
+                            android:src="@color/brown" />
 
                         <TextView
                             android:layout_width="0dp"
@@ -45,8 +54,10 @@
                             android:textStyle="bold" />
 
                         <ImageView
-                            android:layout_width="75dp"
-                            android:layout_height="75dp" />
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:scaleType="fitXY"
+                            android:src="@color/saddlebrown" />
 
                     </LinearLayout>
 
@@ -68,12 +79,14 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:gravity="center"/>
+                android:gravity="center"
+                android:text="你的昵称" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:gravity="center" />
+                android:gravity="center"
+                android:text="你的个人介绍" />
 
             <View
                 android:layout_width="match_parent"
@@ -84,27 +97,92 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="100dp">
+                android:layout_height="100dp"
+                android:padding="10dp">
 
-                <ImageView
+                <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
 
-                <ImageView
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@color/tan" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="收藏" />
+
+                </LinearLayout>
+
+                <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
 
-                <ImageView
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@color/tan" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="订单" />
+
+                </LinearLayout>
+
+                <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
 
-                <ImageView
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@color/tan" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="路线" />
+
+                </LinearLayout>
+
+                <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:src="@color/tan" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="写过的" />
+
+                </LinearLayout>
 
             </LinearLayout>
 
@@ -122,12 +200,19 @@
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:text="我发布的攻略"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
                 <ImageView
                     android:layout_width="60dp"
                     android:layout_height="60dp"
-                    android:layout_margin="10dp"/>
+                    android:layout_margin="10dp"
+                    android:src="@color/green"
+                    android:scaleType="fitXY"/>
 
             </LinearLayout>
 
@@ -148,7 +233,7 @@
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_margin="10dp"
-                    android:src="@color/lightgray"/>
+                    android:src="@color/sienna"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -158,12 +243,18 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        android:layout_weight="2"/>
+                        android:layout_weight="1"
+                        android:text="攻略名称"
+                        android:gravity="bottom"
+                        android:textSize="25sp"/>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        android:layout_weight="1"/>
+                        android:layout_weight="1"
+                        android:text="一些基本的攻略概要"
+                        android:textSize="15dp"
+                        android:gravity="center_vertical"/>
 
                 </LinearLayout>
 
@@ -189,12 +280,18 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        android:layout_weight="2"/>
+                        android:layout_weight="1"
+                        android:text="攻略名称"
+                        android:gravity="bottom"
+                        android:textSize="25sp"/>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        android:layout_weight="1"/>
+                        android:layout_weight="1"
+                        android:text="一些基本的攻略概要"
+                        android:textSize="15dp"
+                        android:gravity="center_vertical"/>
 
                 </LinearLayout>
 
@@ -210,7 +307,7 @@
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_margin="10dp"
-                    android:src="@color/lightgray"/>
+                    android:src="@color/orchid"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -220,12 +317,18 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        android:layout_weight="2"/>
+                        android:layout_weight="1"
+                        android:text="攻略名称"
+                        android:gravity="bottom"
+                        android:textSize="25sp"/>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        android:layout_weight="1"/>
+                        android:layout_weight="1"
+                        android:text="一些基本的攻略概要"
+                        android:textSize="15dp"
+                        android:gravity="center_vertical"/>
 
                 </LinearLayout>
 
@@ -241,7 +344,7 @@
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_margin="10dp"
-                    android:src="@color/lightgray"/>
+                    android:src="@color/peru" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -251,12 +354,18 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        android:layout_weight="2"/>
+                        android:layout_weight="1"
+                        android:text="攻略名称"
+                        android:gravity="bottom"
+                        android:textSize="25sp"/>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        android:layout_weight="1"/>
+                        android:layout_weight="1"
+                        android:text="一些基本的攻略概要"
+                        android:textSize="15dp"
+                        android:gravity="center_vertical"/>
 
                 </LinearLayout>
 
@@ -272,7 +381,7 @@
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_margin="10dp"
-                    android:src="@color/lightgray"/>
+                    android:src="@color/palegreen" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -282,12 +391,18 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        android:layout_weight="2"/>
+                        android:layout_weight="1"
+                        android:text="攻略名称"
+                        android:gravity="bottom"
+                        android:textSize="25sp"/>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
-                        android:layout_weight="1"/>
+                        android:layout_weight="1"
+                        android:text="一些基本的攻略概要"
+                        android:textSize="15dp"
+                        android:gravity="center_vertical"/>
 
                 </LinearLayout>
 
