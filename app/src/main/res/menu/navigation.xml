@@ -2,28 +2,28 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/navigation_home"
-        android:icon="@drawable/ic_home_black_24dp"
-        android:title="@string/title_home" />
+        android:id="@+id/navigation_wikipedia"
+        android:icon="@drawable/wikipake"
+        android:title="@string/title_wikipedia" />
 
     <item
-        android:id="@+id/navigation_find"
-        android:icon="@drawable/ic_dashboard_black_24dp"
-        android:title="@string/title_find" />
+        android:id="@+id/navigation_goods"
+        android:icon="@drawable/goods"
+        android:title="@string/title_goods" />
 
     <item
-        android:id="@+id/navigation_destination"
-        android:icon="@drawable/ic_notifications_black_24dp"
-        android:title="@string/title_destination" />
+        android:id="@+id/navigation_primepages"
+        android:icon="@drawable/primepage"
+        android:title="@string/title_primepages" />
 
     <item
-        android:id="@+id/navigation_journey"
-        android:icon="@drawable/ic_notifications_black_24dp"
-        android:title="@string/title_journey" />
+        android:id="@+id/navigation_routes"
+        android:icon="@drawable/routes"
+        android:title="@string/title_routes" />
 
     <item
         android:id="@+id/navigation_mine"
-        android:icon="@drawable/ic_notifications_black_24dp"
+        android:icon="@drawable/mine"
         android:title="@string/title_mine" />
 
 </menu>

@@ -1,6 +1,5 @@
 package com.example.firstroad.fragments;
 
-import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -10,24 +9,23 @@ import android.view.ViewGroup;
 
 import com.example.firstroad.R;
 
-public class MainJourneyFragment extends Fragment {
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
+
+public class MaincyClopediaFragment extends Fragment {
+
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
 
-    // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
 
     private OnFragmentInteractionListener mListener;
 
-    public MainJourneyFragment() {
+    public MaincyClopediaFragment() {
         // Required empty public constructor
     }
 
-    public static MainJourneyFragment newInstance(String param1, String param2) {
-        MainJourneyFragment fragment = new MainJourneyFragment();
+    public static MaincyClopediaFragment newInstance(String param1, String param2) {
+        MaincyClopediaFragment fragment = new MaincyClopediaFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -48,9 +46,10 @@ public class MainJourneyFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_main_journey, container, false);
+        return inflater.inflate(R.layout.fragment_main_home, container, false);
     }
 
+    // TODO: Rename method, update argument and hook method into UI event
     public void onButtonPressed(Uri uri) {
         if (mListener != null) {
             mListener.onFragmentInteraction(uri);
@@ -64,6 +63,7 @@ public class MainJourneyFragment extends Fragment {
     }
 
     public interface OnFragmentInteractionListener {
+        // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
     }
 }

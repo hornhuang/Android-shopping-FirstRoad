@@ -7,9 +7,17 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
+import com.bumptech.glide.Glide;
 import com.example.firstroad.R;
+import com.youth.banner.Banner;
+import com.youth.banner.BannerConfig;
+import com.youth.banner.Transformer;
+import com.youth.banner.loader.ImageLoader;
 
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainHomeFragment extends Fragment {
 
@@ -20,6 +28,8 @@ public class MainHomeFragment extends Fragment {
     private String mParam2;
 
     private OnFragmentInteractionListener mListener;
+
+    private List<String> titles = new ArrayList<>();
 
     public MainHomeFragment() {
         // Required empty public constructor
@@ -47,13 +57,62 @@ public class MainHomeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_main_home, container, false);
+        View view = inflater.inflate(R.layout.fragment_main_destination, container, false);
+        iniBanner(view);
+        return view;
     }
 
-    // TODO: Rename method, update argument and hook method into UI event
     public void onButtonPressed(Uri uri) {
         if (mListener != null) {
             mListener.onFragmentInteraction(uri);
+        }
+    }
+
+    private void iniBanner(View view){
+        List<Integer> images = new ArrayList<>();
+        images.add(R.drawable.text_evc_top);
+        images.add(R.drawable.text_evc_top);
+        images.add(R.drawable.text_evc_top);
+        images.add(R.drawable.text_evc_top);
+        titles.add("2018文化和自然遗产日");
+        titles.add("川剧一绝——吐火");
+        titles.add("非遗印象 品牌设计方案");
+        titles.add("历史印记 无锡非遗");
+        for (int i = 0 ; i < 4 ; i++){
+            //images.add("http://47.107.132.227/form");
+        }
+
+        Banner banner = (Banner) view.findViewById(R.id.banner);
+//        banner.setImages(images).setImageLoader(new GlideImageLoader());
+        banner.setImages(images).setImageLoader(new MyImageLoader());
+
+        //设置banner样式
+        banner.setBannerStyle(BannerConfig.CIRCLE_INDICATOR_TITLE);
+        //设置图片加载器
+//        banner.setImageLoader(new GlideImageLoader());
+        banner.setImageLoader(new MyImageLoader());
+        //设置图片集合
+        banner.setImages(images);
+        //设置banner动画效果
+        banner.setBannerAnimation(Transformer.DepthPage);
+        //设置标题集合（当banner样式有显示title时）
+        banner.setBannerTitles(titles);
+        //设置自动轮播，默认为true
+        banner.isAutoPlay(true);
+        //设置轮播时间
+        banner.setDelayTime(1500);
+        //设置指示器位置（当banner模式中有指示器时）
+        banner.setIndicatorGravity(BannerConfig.CENTER);
+        //banner设置方法全部调用完毕时最后调用
+        banner.start();
+    }
+
+    private class MyImageLoader extends ImageLoader {
+        @Override
+        public void displayImage(Context context, Object path, ImageView imageView) {
+            Glide.with(context.getApplicationContext())
+                    .load(path)
+                    .into(imageView);
         }
     }
 
@@ -64,7 +123,6 @@ public class MainHomeFragment extends Fragment {
     }
 
     public interface OnFragmentInteractionListener {
-        // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
     }
 }

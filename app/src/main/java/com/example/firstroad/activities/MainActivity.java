@@ -1,8 +1,6 @@
 package com.example.firstroad.activities;
 
-import android.os.Build;
 import android.support.annotation.NonNull;
-import android.support.annotation.RequiresApi;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
@@ -11,10 +9,10 @@ import android.view.MenuItem;
 import android.widget.Toast;
 
 import com.example.firstroad.R;
-import com.example.firstroad.fragments.MainDestinationFragment;
-import com.example.firstroad.fragments.MainFindFragment;
 import com.example.firstroad.fragments.MainHomeFragment;
-import com.example.firstroad.fragments.MainJourneyFragment;
+import com.example.firstroad.fragments.MainGoodsFragment;
+import com.example.firstroad.fragments.MaincyClopediaFragment;
+import com.example.firstroad.fragments.MainRoutesFragment;
 import com.example.firstroad.fragments.MainMineFragment;
 import com.example.firstroad.utils.BottomNavigationViewHelper;
 
@@ -44,7 +42,7 @@ public class MainActivity extends BaseActivity {
         public void run() {
             Toast.makeText(MainActivity.this, "hello", Toast.LENGTH_SHORT).show();
             if (mHomeFrag) {
-                mHomeFragment = new MainHomeFragment();
+                mHomeFragment = new MaincyClopediaFragment();
             }
             transaction = getSupportFragmentManager().beginTransaction();
             transaction.replace(R.id.main_fragment, mHomeFragment);
@@ -56,7 +54,7 @@ public class MainActivity extends BaseActivity {
         @Override
         public void run() {
             if (mFindFrag){
-                mFindFragment = new MainFindFragment();
+                mFindFragment = new MainGoodsFragment();
             }
             transaction = getSupportFragmentManager().beginTransaction();
             transaction.replace(R.id.main_fragment, mFindFragment);
@@ -68,7 +66,7 @@ public class MainActivity extends BaseActivity {
         @Override
         public void run() {
             if (mDestinationFrag){
-                mDestinationFragment = new MainDestinationFragment();
+                mDestinationFragment = new MainHomeFragment();
             }
             transaction = getSupportFragmentManager().beginTransaction();
             transaction.replace(R.id.main_fragment, mDestinationFragment);
@@ -80,7 +78,7 @@ public class MainActivity extends BaseActivity {
         @Override
         public void run() {
             if (mJourneyFrag){
-                mJourneyFragment = new MainJourneyFragment();
+                mJourneyFragment = new MainRoutesFragment();
             }
             transaction = getSupportFragmentManager().beginTransaction();
             transaction.replace(R.id.main_fragment, mJourneyFragment);
@@ -107,19 +105,19 @@ public class MainActivity extends BaseActivity {
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
             switch (menuItem.getItemId()){
-                case R.id.navigation_home:
+                case R.id.navigation_wikipedia:
                     mHomeRunnable.run();
                     return true;
 
-                case R.id.navigation_find:
+                case R.id.navigation_goods:
                     mFindRunnable.run();
                     return true;
 
-                case R.id.navigation_destination:
+                case R.id.navigation_primepages:
                     mDestinationRunnable.run();
                     return true;
 
-                case R.id.navigation_journey:
+                case R.id.navigation_routes:
                     mJourneyRunnable.run();
                     return true;
 
@@ -143,7 +141,7 @@ public class MainActivity extends BaseActivity {
         BottomNavigationViewHelper.disableShiftMode(navigationView);//取消缩放 失败
         navigationView.setOnNavigationItemSelectedListener(selectedListener);
 
-        navigationView.setSelectedItemId(R.id.navigation_destination);
+        navigationView.setSelectedItemId(R.id.navigation_primepages);
 
     }
 }

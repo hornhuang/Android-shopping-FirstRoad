@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/background_gray"
-    tools:context=".fragments.MainHomeFragment">
+    tools:context=".fragments.MaincyClopediaFragment">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -85,7 +85,8 @@
                             android:padding="5dp"
                             android:text="物品名称"
                             android:textSize="20sp"
-                            android:textStyle="bold" />
+                            android:textStyle="bold"
+                            android:singleLine="true" />
 
                         <TextView
                             android:layout_width="match_parent"
@@ -93,7 +94,8 @@
                             android:gravity="center_vertical"
                             android:padding="5dp"
                             android:text="百科物品介绍，简介等基本信息摘要"
-                            android:textSize="15sp" />
+                            android:textSize="15sp"
+                            android:singleLine="true" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -114,7 +116,8 @@
                                 android:gravity="center_vertical"
                                 android:padding="5dp"
                                 android:text="用户昵称"
-                                android:textSize="15sp" />
+                                android:textSize="15sp"
+                                android:singleLine="true" />
 
                             <TextView
                                 android:layout_width="0dp"
@@ -123,7 +126,8 @@
                                 android:gravity="center_vertical"
                                 android:padding="5dp"
                                 android:text="25w 阅读"
-                                android:textSize="15sp" />
+                                android:textSize="15sp"
+                                android:singleLine="true" />
 
                         </LinearLayout>
 
@@ -161,7 +165,8 @@
                             android:padding="5dp"
                             android:text="物品名称"
                             android:textSize="20sp"
-                            android:textStyle="bold" />
+                            android:textStyle="bold"
+                            android:singleLine="true" />
 
                         <TextView
                             android:layout_width="match_parent"
@@ -169,7 +174,8 @@
                             android:gravity="center_vertical"
                             android:padding="5dp"
                             android:text="百科物品介绍，简介等基本信息摘要"
-                            android:textSize="15sp" />
+                            android:textSize="15sp"
+                            android:singleLine="true" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -190,7 +196,8 @@
                                 android:gravity="center_vertical"
                                 android:padding="5dp"
                                 android:text="用户昵称"
-                                android:textSize="15sp" />
+                                android:textSize="15sp"
+                                android:singleLine="true" />
 
                             <TextView
                                 android:layout_width="0dp"
@@ -199,7 +206,8 @@
                                 android:gravity="center_vertical"
                                 android:padding="5dp"
                                 android:text="25w 阅读"
-                                android:textSize="15sp" />
+                                android:textSize="15sp"
+                                android:singleLine="true" />
 
                         </LinearLayout>
 
@@ -244,7 +252,8 @@
                             android:padding="5dp"
                             android:text="物品名称"
                             android:textSize="20sp"
-                            android:textStyle="bold" />
+                            android:textStyle="bold"
+                            android:singleLine="true" />
 
                         <TextView
                             android:layout_width="match_parent"
@@ -252,7 +261,8 @@
                             android:gravity="center_vertical"
                             android:padding="5dp"
                             android:text="百科物品介绍，简介等基本信息摘要"
-                            android:textSize="15sp" />
+                            android:textSize="15sp"
+                            android:singleLine="true" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -273,7 +283,8 @@
                                 android:gravity="center_vertical"
                                 android:padding="5dp"
                                 android:text="用户昵称"
-                                android:textSize="15sp" />
+                                android:textSize="15sp"
+                                android:singleLine="true" />
 
                             <TextView
                                 android:layout_width="0dp"
@@ -282,7 +293,8 @@
                                 android:gravity="center_vertical"
                                 android:padding="5dp"
                                 android:text="25w 阅读"
-                                android:textSize="15sp" />
+                                android:textSize="15sp"
+                                android:singleLine="true" />
 
                         </LinearLayout>
 
@@ -320,7 +332,8 @@
                             android:padding="5dp"
                             android:text="物品名称"
                             android:textSize="20sp"
-                            android:textStyle="bold" />
+                            android:textStyle="bold"
+                            android:singleLine="true" />
 
                         <TextView
                             android:layout_width="match_parent"
@@ -328,7 +341,8 @@
                             android:gravity="center_vertical"
                             android:padding="5dp"
                             android:text="百科物品介绍，简介等基本信息摘要"
-                            android:textSize="15sp" />
+                            android:textSize="15sp"
+                            android:singleLine="true" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -349,7 +363,8 @@
                                 android:gravity="center_vertical"
                                 android:padding="5dp"
                                 android:text="用户昵称"
-                                android:textSize="15sp" />
+                                android:textSize="15sp"
+                                android:singleLine="true" />
 
                             <TextView
                                 android:layout_width="0dp"
@@ -358,7 +373,8 @@
                                 android:gravity="center_vertical"
                                 android:padding="5dp"
                                 android:text="25w 阅读"
-                                android:textSize="15sp" />
+                                android:textSize="15sp"
+                                android:singleLine="true" />
 
                         </LinearLayout>
 
@@ -403,7 +419,8 @@
                             android:padding="5dp"
                             android:text="物品名称"
                             android:textSize="20sp"
-                            android:textStyle="bold" />
+                            android:textStyle="bold"
+                            android:singleLine="true" />
 
                         <TextView
                             android:layout_width="match_parent"
@@ -411,7 +428,8 @@
                             android:gravity="center_vertical"
                             android:padding="5dp"
                             android:text="百科物品介绍，简介等基本信息摘要"
-                            android:textSize="15sp" />
+                            android:textSize="15sp"
+                            android:singleLine="true" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -432,7 +450,8 @@
                                 android:gravity="center_vertical"
                                 android:padding="5dp"
                                 android:text="用户昵称"
-                                android:textSize="15sp" />
+                                android:textSize="15sp"
+                                android:singleLine="true" />
 
                             <TextView
                                 android:layout_width="0dp"
@@ -441,7 +460,8 @@
                                 android:gravity="center_vertical"
                                 android:padding="5dp"
                                 android:text="25w 阅读"
-                                android:textSize="15sp" />
+                                android:textSize="15sp"
+                                android:singleLine="true" />
 
                         </LinearLayout>
 
@@ -479,7 +499,8 @@
                             android:padding="5dp"
                             android:text="物品名称"
                             android:textSize="20sp"
-                            android:textStyle="bold" />
+                            android:textStyle="bold"
+                            android:singleLine="true" />
 
                         <TextView
                             android:layout_width="match_parent"
@@ -487,7 +508,8 @@
                             android:gravity="center_vertical"
                             android:padding="5dp"
                             android:text="百科物品介绍，简介等基本信息摘要"
-                            android:textSize="15sp" />
+                            android:textSize="15sp"
+                            android:singleLine="true" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -508,7 +530,8 @@
                                 android:gravity="center_vertical"
                                 android:padding="5dp"
                                 android:text="用户昵称"
-                                android:textSize="15sp" />
+                                android:textSize="15sp"
+                                android:singleLine="true"/>
 
                             <TextView
                                 android:layout_width="0dp"
@@ -517,7 +540,8 @@
                                 android:gravity="center_vertical"
                                 android:padding="5dp"
                                 android:text="25w 阅读"
-                                android:textSize="15sp" />
+                                android:textSize="15sp"
+                                android:singleLine="true" />
 
                         </LinearLayout>
 

@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">FirstRoad</string>
     <string name="title_activity_main2">Main2Activity</string>
-    <string name="title_home">首页</string>
-    <string name="title_find">发现</string>
-    <string name="title_destination">目的地</string>
-    <string name="title_journey">行程</string>
+    <string name="title_wikipedia">百科</string>
+    <string name="title_goods">商品</string>
+    <string name="title_primepages">首页</string>
+    <string name="title_routes">路线</string>
     <string name="title_mine">我的</string>
 
     <!-- TODO: Remove or change this placeholder text -->

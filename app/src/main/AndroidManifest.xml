@@ -9,6 +9,9 @@
         android:roundIcon="@mipmap/appicon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".itemdetails.RoutesDetailsActivity"></activity>
+        <activity android:name=".itemdetails.ClopediaDetailsActivity" />
+        <activity android:name=".itemdetails.GoodsDetailsActivity" />
         <activity android:name=".activities.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
