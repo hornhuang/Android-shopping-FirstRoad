@@ -12,6 +12,7 @@ import android.widget.LinearLayout;
 
 import com.example.firstroad.R;
 import com.example.firstroad.itemdetails.ClopediaDetailActivity;
+import com.example.firstroad.itemdetails.ClopediaDetailMineActivity;
 import com.example.firstroad.itemdetails.OrdersDetailsActivity;
 
 public class MainMineFragment extends Fragment {
@@ -56,7 +57,7 @@ public class MainMineFragment extends Fragment {
         linearLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getActivity(), ClopediaDetailActivity.class));
+                startActivity(new Intent(getActivity(), ClopediaDetailMineActivity.class));
             }
         });
 

@@ -51,8 +51,7 @@
                         android:layout_width="60dp"
                         android:layout_height="60dp"
                         android:scaleType="fitXY"
-                        android:src="@color/blanchedalmond"
-                        app:srcCompat="@drawable/dongbeidagu" />
+                        android:src="@drawable/dongbeidagu" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -76,8 +75,7 @@
                         android:layout_width="60dp"
                         android:layout_height="60dp"
                         android:scaleType="fitXY"
-                        android:src="@color/aquamarine"
-                        app:srcCompat="@drawable/manaodiaoke" />
+                        android:src="@drawable/manaodiaoke" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -100,8 +98,7 @@
                         android:layout_width="60dp"
                         android:layout_height="60dp"
                         android:scaleType="fitXY"
-                        android:src="@color/chocolate"
-                        app:srcCompat="@drawable/dandiao" />
+                        android:src="@drawable/dandiao" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -124,8 +121,7 @@
                         android:layout_width="60dp"
                         android:layout_height="60dp"
                         android:scaleType="fitXY"
-                        android:src="@color/cornsilk"
-                        app:srcCompat="@drawable/hululaohua" />
+                        android:src="@drawable/hululaohua" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -195,8 +191,7 @@
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="10dp"
                     android:scaleType="fitXY"
-                    android:src="@color/coral"
-                    app:srcCompat="@drawable/mengguzusihuyyue" />
+                    android:src="@drawable/mengguzusihuyyue" />
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -239,8 +234,7 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="10dp"
                         android:scaleType="fitXY"
-                        android:src="@color/orange"
-                        app:srcCompat="@drawable/sihu" />
+                        android:src="@drawable/sihu" />
 
                 </RelativeLayout>
 
@@ -261,8 +255,7 @@
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="10dp"
                     android:scaleType="fitXY"
-                    android:src="@color/transparent_pink"
-                    app:srcCompat="@drawable/mengguzhucaoyuansaima" />
+                    android:src="@drawable/mengguzhucaoyuansaima" />
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -306,8 +299,7 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="10dp"
                         android:scaleType="fitXY"
-                        android:src="@color/pink"
-                        app:srcCompat="@drawable/caoyuansaima" />
+                        android:src="@drawable/caoyuansaima" />
 
                 </RelativeLayout>
 
@@ -329,8 +321,7 @@
                     android:layout_marginRight="10dp"
                     android:layout_marginBottom="10dp"
                     android:scaleType="fitXY"
-                    android:src="@color/khaki"
-                    app:srcCompat="@drawable/manzhuzhenzhuqiu" />
+                    android:src="@drawable/manzhuzhenzhuqiu" />
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -373,8 +364,7 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="10dp"
                         android:scaleType="fitXY"
-                        android:src="@color/lightpink"
-                        app:srcCompat="@drawable/zhenzhuqiu" />
+                        android:src="@drawable/zhenzhuqiu" />
 
                 </RelativeLayout>
 

@@ -24,6 +24,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:scaleType="fitXY"
                     android:src="@drawable/wusulijiang"/>
 
                 <include layout="@layout/destination_top_layout"/>
@@ -58,10 +59,12 @@
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="3"
-                            android:padding="15dp"
+                            android:paddingTop="15dp"
+                            android:paddingBottom="15dp"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
                             android:scaleType="fitXY"
-                            android:src="@color/darkgreen"
-                            app:srcCompat="@drawable/shoucang_routes" />
+                            android:src="@drawable/shoucang_routes" />
 
                         <TextView
                             android:layout_width="match_parent"
@@ -83,10 +86,12 @@
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="3"
-                            android:padding="15dp"
+                            android:paddingTop="15dp"
+                            android:paddingBottom="15dp"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
                             android:scaleType="fitXY"
-                            android:src="@color/aquamarine"
-                            app:srcCompat="@drawable/shoucang2_routes" />
+                            android:src="@drawable/shoucang2_routes" />
 
                         <TextView
                             android:layout_width="match_parent"
@@ -109,10 +114,12 @@
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="3"
-                            android:padding="15dp"
+                            android:paddingTop="15dp"
+                            android:paddingBottom="15dp"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
                             android:scaleType="fitXY"
-                            android:src="@color/aquamarine"
-                            app:srcCompat="@drawable/wanle_routes" />
+                            android:src="@drawable/wanle_routes" />
 
                         <TextView
                             android:layout_width="match_parent"
@@ -134,10 +141,12 @@
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="3"
-                            android:padding="15dp"
+                            android:paddingTop="15dp"
+                            android:paddingBottom="15dp"
+                            android:paddingLeft="10dp"
+                            android:paddingRight="10dp"
                             android:scaleType="fitXY"
-                            android:src="@color/aquamarine"
-                            app:srcCompat="@drawable/kefu_routes" />
+                            android:src="@drawable/kefu_routes" />
 
                         <TextView
                             android:layout_width="match_parent"
@@ -181,8 +190,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:scaleType="fitXY"
-                                android:src="@color/navajowhite"
-                                app:srcCompat="@drawable/mulanpobing" />
+                                android:src="@drawable/mulanpobing" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -233,8 +241,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:scaleType="fitXY"
-                                android:src="@color/darkcyan"
-                                app:srcCompat="@drawable/manzubanjinjie" />
+                                android:src="@drawable/manzubanjinjie" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -284,8 +291,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:scaleType="fitXY"
-                                android:src="@color/firebrick"
-                                app:srcCompat="@drawable/manzuwurigondahui" />
+                                android:src="@drawable/manzuwurigondahui" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -360,8 +366,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:scaleType="fitXY"
-                        android:src="@color/gold"
-                        app:srcCompat="@drawable/changbaishan" />
+                        android:src="@drawable/changbaishan" />
 
                     <LinearLayout
                         android:layout_width="0dp"
@@ -443,8 +448,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:scaleType="fitXY"
-                        android:src="@color/aquamarine"
-                        app:srcCompat="@drawable/dongbeihulinyuan" />
+                        android:src="@drawable/dongbeihulinyuan" />
 
                     <LinearLayout
                         android:layout_width="0dp"
@@ -526,8 +530,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:scaleType="fitXY"
-                        android:src="@color/lightcoral"
-                        app:srcCompat="@drawable/mohebeijichun" />
+                        android:src="@drawable/mohebeijichun" />
 
                     <LinearLayout
                         android:layout_width="0dp"
@@ -609,8 +612,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:scaleType="fitXY"
-                        android:src="@color/olivedrab"
-                        app:srcCompat="@drawable/wusulijiangh" />
+                        android:src="@drawable/wusulijiangh" />
 
                     <LinearLayout
                         android:layout_width="0dp"

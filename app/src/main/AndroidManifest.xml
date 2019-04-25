@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/appicon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".itemdetails.OrdersDetailsActivity"></activity>
+        <activity android:name=".itemdetails.ClopediaDetailMineActivity"></activity>
+        <activity android:name=".itemdetails.OrdersDetailsActivity" />
         <activity android:name=".itemdetails.ClopediaDetailActivity" />
         <activity android:name=".itemdetails.RoutesPlayDetailsActivity" />
         <activity android:name=".itemdetails.RoutesDetailsActivity" />

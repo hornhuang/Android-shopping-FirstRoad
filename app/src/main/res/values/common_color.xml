@@ -44,9 +44,9 @@
     <color name="beige">#F5F5DC</color> <!-- 米色 -->
     <color name="wheat">#f5deb3</color> <!-- 浅黄色 -->
     <color name="sandybrown">#f4a460</color> <!-- 沙褐色 -->
-    <color name="azure">#f0ffff</color> <!-- 天蓝色 -->
+    <color name="azure">#F0FFFF</color> <!-- 天蓝色 -->
     <color name="honeydew">#f0fff0</color> <!-- 蜜色 -->
-    <color name="aliceblue">#f0f8ff</color> <!-- 艾利斯兰 -->
+    <color name="aliceblue">#F0F8FF</color> <!-- 艾利斯兰 -->
     <color name="khaki">#F0E68C</color> <!-- 黄褐色 -->
     <color name="lightcoral">#F08080</color> <!-- 亮珊瑚色 -->
     <color name="palegoldenrod">#eee8aa</color> <!-- 苍麒麟色 -->

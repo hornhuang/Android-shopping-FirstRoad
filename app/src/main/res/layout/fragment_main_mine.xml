@@ -118,8 +118,7 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-                        android:src="@color/tan"
-                        app:srcCompat="@drawable/shoucang1"
+                        android:src="@drawable/shoucang1"
                         android:padding="15dp"/>
 
                     <TextView
@@ -142,8 +141,7 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-                        android:src="@color/transparent_bisque"
-                        app:srcCompat="@drawable/ziyuan"
+                        android:src="@drawable/ziyuan"
                         android:padding="15dp" />
 
                     <TextView
@@ -165,8 +163,7 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-                        android:src="@color/darksalmon"
-                        app:srcCompat="@drawable/luxianchaxun"
+                        android:src="@drawable/luxianchaxun"
                         android:padding="15dp" />
 
                     <TextView
@@ -188,8 +185,7 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-                        android:src="@color/transparent_cornsilk"
-                        app:srcCompat="@drawable/fabiao"
+                        android:src="@drawable/fabiao"
                         android:padding="15dp" />
 
                     <TextView
@@ -251,119 +247,8 @@
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_margin="10dp"
-                    android:src="@color/orange" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="0dp"
-                        android:layout_weight="1"
-                        android:text="攻略名称"
-                        android:gravity="bottom"
-                        android:textSize="25sp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="0dp"
-                        android:layout_weight="1"
-                        android:text="一些基本的攻略概要"
-                        android:textSize="15dp"
-                        android:gravity="center_vertical"/>
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:orientation="horizontal"
-                android:gravity="center_vertical">
-
-                <ImageView
-                    android:layout_width="75dp"
-                    android:layout_height="75dp"
-                    android:layout_margin="10dp"
-                    android:src="@color/hotpink" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="0dp"
-                        android:layout_weight="1"
-                        android:text="攻略名称"
-                        android:gravity="bottom"
-                        android:textSize="25sp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="0dp"
-                        android:layout_weight="1"
-                        android:text="一些基本的攻略概要"
-                        android:textSize="15dp"
-                        android:gravity="center_vertical"/>
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:orientation="horizontal"
-                android:gravity="center_vertical">
-
-                <ImageView
-                    android:layout_width="75dp"
-                    android:layout_height="75dp"
-                    android:layout_margin="10dp"
-                    android:src="@color/orchid"/>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="0dp"
-                        android:layout_weight="1"
-                        android:text="攻略名称"
-                        android:gravity="bottom"
-                        android:textSize="25sp"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="0dp"
-                        android:layout_weight="1"
-                        android:text="一些基本的攻略概要"
-                        android:textSize="15dp"
-                        android:gravity="center_vertical"/>
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/linearlayout"
-                android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:gravity="center_vertical"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:layout_width="75dp"
-                    android:layout_height="75dp"
-                    android:layout_margin="10dp"
-                    android:src="@color/peru" />
+                    android:scaleType="fitXY"
+                    android:src="@drawable/elunchunzuxierenzhu" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -375,7 +260,7 @@
                         android:layout_height="0dp"
                         android:layout_weight="1"
                         android:gravity="bottom"
-                        android:text="攻略名称"
+                        android:text="鄂伦春族斜仁柱"
                         android:textSize="25sp" />
 
                     <TextView
@@ -383,7 +268,7 @@
                         android:layout_height="0dp"
                         android:layout_weight="1"
                         android:gravity="center_vertical"
-                        android:text="一些基本的攻略概要"
+                        android:text=" 鄂伦春族民居—撮罗子 仙人柱,鄂伦春语意为“木杆房屋”,"
                         android:textSize="15dp" />
 
                 </LinearLayout>
@@ -400,7 +285,8 @@
                     android:layout_width="75dp"
                     android:layout_height="75dp"
                     android:layout_margin="10dp"
-                    android:src="@color/palegreen" />
+                    android:scaleType="fitXY"
+                    android:src="@drawable/caoxianzunongyuewu" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -411,17 +297,132 @@
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
                         android:layout_weight="1"
-                        android:text="攻略名称"
                         android:gravity="bottom"
-                        android:textSize="25sp"/>
+                        android:text="朝鲜族农乐舞"
+                        android:textSize="25sp" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
                         android:layout_weight="1"
-                        android:text="一些基本的攻略概要"
-                        android:textSize="15dp"
-                        android:gravity="center_vertical"/>
+                        android:gravity="center_vertical"
+                        android:text="“农乐舞”俗称“农乐”，流传于吉林省、黑龙江省、辽宁省等地的朝鲜族聚居区。"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_margin="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/donbeichuantondayange" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="bottom"
+                        android:text="东北传统大秧歌"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text="来源于生产劳动之中。东北地区的舞蹈有秧歌"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayout"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_margin="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/haerbinbindiao" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="bottom"
+                        android:text="哈尔滨冰灯冰雕"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text="哈尔滨冰灯游园会创办于1963年，每年冬天在兆麟公园举行"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_margin="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/gaoqiaowudao" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="bottom"
+                        android:text="高跷舞蹈"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:text="高跷也叫“高跷秧歌”，是一种广泛流传于全国各地的民间舞蹈"
+                        android:textSize="15dp" />
 
                 </LinearLayout>
 
