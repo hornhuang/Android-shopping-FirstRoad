@@ -39,31 +39,38 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="15dp"
+                    android:layout_margin="10dp"
                     android:orientation="vertical"
                     android:background="@drawable/shape_button_half">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
                         android:padding="5dp"
-                        android:textSize="25dp"
-                        android:text="景点名称" />
+                        android:text="长白山"
+                        android:textSize="25dp" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:padding="5dp"
+                        android:layout_marginBottom="10dp"
                         android:orientation="horizontal">
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:background="@drawable/text_biankuang_strok_orange"
+                            android:layout_margin="10dp"
                             android:text="标签一"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:background="@drawable/text_biankuang_strok_orange"
+                            android:padding="5dp"
+                            android:layout_margin="10dp"
                             android:text="标签二"/>
 
                         <View
@@ -86,7 +93,7 @@
 
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
+                        android:layout_height="wrap_content"
                         android:orientation="horizontal">
 
                         <TextView
@@ -94,7 +101,7 @@
                             android:layout_height="match_parent"
                             android:layout_weight="1"
                             android:padding="5dp"
-                            android:text="2005年毕业于上海戏剧学院表演系"/>
+                            android:text="哈尔滨动车往返长白山天池＋西北双坡＋魔界纯玩4日游 无购物无自费2人可成团" />
 
                         <LinearLayout
                             android:layout_width="100dp"
@@ -105,7 +112,8 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:isIndicator="true"
-                                android:numStars="3"
+                                android:numStars="5"
+                                android:stepSize="4"
                                 android:soundEffectsEnabled="true"
                                 style="?android:attr/ratingBarStyleSmall"/>
 
@@ -129,7 +137,7 @@
                             android:layout_width="0dp"
                             android:layout_height="40dp"
                             android:layout_weight="1"
-                            android:text="2005年毕业于上海戏剧学院表演系，同年在仙侠剧《仙剑奇侠传》"/>
+                            android:text="早上酒店大堂集合，司机前往大堂接团，接团后前往长白山西景区，车程约1.5小时。抵达景区。" />
 
                         <TextView
                             android:layout_width="45dp"
@@ -149,7 +157,7 @@
                             android:layout_width="0dp"
                             android:layout_height="40dp"
                             android:layout_weight="1"
-                            android:text="2005年毕业于上海戏剧学院表演系，同年在仙侠剧《仙剑奇侠传》"/>
+                            android:text="推荐游览线路：北山门--中转站--天池（倒战车80自理）--中转站--瀑布--聚龙泉--北山门。" />
 
                         <TextView
                             android:layout_width="45dp"
@@ -162,8 +170,10 @@
 
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="400dp"
-                        android:src="@color/antiquewhite" />
+                        android:layout_height="700dp"
+                        android:scaleType="fitXY"
+                        android:src="@color/antiquewhite"
+                        app:srcCompat="@drawable/changbaishanjiesao" />
 
                     <View
                         android:layout_width="match_parent"
@@ -177,7 +187,8 @@
 
         <android.support.design.widget.AppBarLayout
             android:layout_width="match_parent"
-            android:layout_height="?actionBarSize">
+            android:layout_height="?actionBarSize"
+            android:background="@android:drawable/screen_background_dark_transparent">
 
             <android.support.v7.widget.Toolbar
                 android:layout_width="match_parent"
@@ -247,21 +258,21 @@
                 <ImageView
                     android:layout_width="?actionBarSize"
                     android:layout_height="?actionBarSize"
-                    android:padding="10dp"
+                    android:padding="13dp"
                     android:scaleType="fitXY"
                     app:srcCompat="@drawable/shoucang" />
 
                 <ImageView
                     android:layout_width="?actionBarSize"
                     android:layout_height="?actionBarSize"
-                    android:padding="10dp"
+                    android:padding="13dp"
                     android:scaleType="fitXY"
                     app:srcCompat="@drawable/didian" />
 
                 <ImageView
                     android:layout_width="?actionBarSize"
                     android:layout_height="?actionBarSize"
-                    android:padding="10dp"
+                    android:padding="13dp"
                     android:scaleType="fitXY"
                     app:srcCompat="@drawable/xingchen" />
 

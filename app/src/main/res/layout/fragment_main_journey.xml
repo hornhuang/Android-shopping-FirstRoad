@@ -24,7 +24,7 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@color/tan"/>
+                    android:src="@drawable/wusulijiang"/>
 
                 <include layout="@layout/destination_top_layout"/>
 
@@ -180,8 +180,9 @@
                             <ImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
+                                android:scaleType="fitXY"
                                 android:src="@color/navajowhite"
-                                android:scaleType="fitXY"/>
+                                app:srcCompat="@drawable/mulanpobing" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -200,7 +201,7 @@
                                 android:layout_height="0dp"
                                 android:layout_weight="1"
                                 android:gravity="center"
-                                android:text="活动名称"
+                                android:text="木兰滚冰"
                                 android:textSize="20sp"
                                 android:textStyle="bold" />
 
@@ -208,9 +209,9 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="0dp"
                                 android:layout_weight="1"
-                                android:textSize="15sp"
                                 android:gravity="center"
-                                android:text="主要活动内容"/>
+                                android:text="100多年历史"
+                                android:textSize="15sp" />
 
                         </LinearLayout>
 
@@ -232,7 +233,8 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:scaleType="fitXY"
-                                android:src="@color/darkcyan" />
+                                android:src="@color/darkcyan"
+                                app:srcCompat="@drawable/manzubanjinjie" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -251,7 +253,7 @@
                                 android:layout_height="0dp"
                                 android:layout_weight="1"
                                 android:gravity="center"
-                                android:text="活动名称"
+                                android:text="满族颁金节"
                                 android:textSize="20sp"
                                 android:textStyle="bold" />
 
@@ -260,7 +262,7 @@
                                 android:layout_height="0dp"
                                 android:layout_weight="1"
                                 android:gravity="center"
-                                android:text="主要活动内容"
+                                android:text="诞生纪念日"
                                 android:textSize="15sp" />
 
                         </LinearLayout>
@@ -281,8 +283,9 @@
                             <ImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
+                                android:scaleType="fitXY"
                                 android:src="@color/firebrick"
-                                android:scaleType="fitXY"/>
+                                app:srcCompat="@drawable/manzuwurigondahui" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -303,7 +306,7 @@
                                 android:layout_height="0dp"
                                 android:layout_weight="1"
                                 android:gravity="center"
-                                android:text="活动名称"
+                                android:text="乌日贡大会"
                                 android:textSize="20sp"
                                 android:textStyle="bold" />
 
@@ -311,9 +314,9 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="0dp"
                                 android:layout_weight="1"
-                                android:textSize="15sp"
                                 android:gravity="center"
-                                android:text="主要活动内容"/>
+                                android:text="文化、体育项目"
+                                android:textSize="15sp" />
 
                         </LinearLayout>
 
@@ -336,6 +339,7 @@
             <!--底部-->
 
             <android.support.v7.widget.CardView
+                android:id="@+id/routes_all_play"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:layout_marginTop="5dp"
@@ -357,7 +361,7 @@
                         android:layout_weight="1"
                         android:scaleType="fitXY"
                         android:src="@color/gold"
-                        app:srcCompat="@drawable/mudiaozhongcai" />
+                        app:srcCompat="@drawable/changbaishan" />
 
                     <LinearLayout
                         android:layout_width="0dp"
@@ -371,7 +375,7 @@
                             android:layout_weight="1.5"
                             android:gravity="center_vertical"
                             android:padding="10dp"
-                            android:text="木雕重彩"
+                            android:text="长白山三日游"
                             android:textSize="20sp"
                             android:textStyle="bold" />
 
@@ -384,22 +388,22 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:padding="5dp"
-                                android:gravity="center_vertical"
-                                android:textSize="15sp"
                                 android:layout_marginLeft="10dp"
                                 android:background="@drawable/text_biankuang_strok_orange"
-                                android:text="标签1"/>
+                                android:gravity="center_vertical"
+                                android:padding="5dp"
+                                android:text="长白山天池"
+                                android:textSize="15sp" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:padding="5dp"
-                                android:gravity="center_vertical"
-                                android:textSize="15sp"
                                 android:layout_marginLeft="10dp"
                                 android:background="@drawable/text_biankuang_strok_orange"
-                                android:text="标签2"/>
+                                android:gravity="center_vertical"
+                                android:padding="5dp"
+                                android:text="魔界雾凇"
+                                android:textSize="15sp" />
 
                         </LinearLayout>
 
@@ -407,10 +411,10 @@
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="2"
-                            android:padding="10dp"
                             android:gravity="center_vertical"
-                            android:textSize="15sp"
-                            android:text="路线的基本介绍"/>
+                            android:padding="10dp"
+                            android:text="往返长白山天池＋西北双坡＋魔界纯玩4日游 无购物"
+                            android:textSize="15sp" />
 
                     </LinearLayout>
 
@@ -419,7 +423,6 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/routes_all_play"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:layout_marginLeft="10dp"
@@ -440,7 +443,8 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:scaleType="fitXY"
-                        android:src="@color/aquamarine" />
+                        android:src="@color/aquamarine"
+                        app:srcCompat="@drawable/dongbeihulinyuan" />
 
                     <LinearLayout
                         android:layout_width="0dp"
@@ -454,7 +458,7 @@
                             android:layout_weight="1.5"
                             android:gravity="center_vertical"
                             android:padding="10dp"
-                            android:text="名称"
+                            android:text="东北虎林园"
                             android:textSize="20sp"
                             android:textStyle="bold" />
 
@@ -467,21 +471,21 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:gravity="center_vertical"
-                                android:padding="5dp"
-                                android:text="标签1"
                                 android:layout_marginLeft="10dp"
                                 android:background="@drawable/text_biankuang_strok_orange"
+                                android:gravity="center_vertical"
+                                android:padding="5dp"
+                                android:text="东北虎"
                                 android:textSize="15sp" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:gravity="center_vertical"
-                                android:padding="5dp"
-                                android:text="标签2"
                                 android:layout_marginLeft="10dp"
                                 android:background="@drawable/text_biankuang_strok_orange"
+                                android:gravity="center_vertical"
+                                android:padding="5dp"
+                                android:text="濒危物种"
                                 android:textSize="15sp" />
 
                         </LinearLayout>
@@ -492,7 +496,7 @@
                             android:layout_weight="2"
                             android:gravity="center_vertical"
                             android:padding="10dp"
-                            android:text="路线的基本介绍"
+                            android:text="中国观测北极光最佳地点，中国“北方第一哨”所在地，也是中国最北的城镇。"
                             android:textSize="15sp" />
 
                     </LinearLayout>
@@ -522,7 +526,8 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:scaleType="fitXY"
-                        android:src="@color/lightcoral" />
+                        android:src="@color/lightcoral"
+                        app:srcCompat="@drawable/mohebeijichun" />
 
                     <LinearLayout
                         android:layout_width="0dp"
@@ -536,7 +541,7 @@
                             android:layout_weight="1.5"
                             android:gravity="center_vertical"
                             android:padding="10dp"
-                            android:text="名称"
+                            android:text="漠河北极村"
                             android:textSize="20sp"
                             android:textStyle="bold" />
 
@@ -549,22 +554,22 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:padding="5dp"
-                                android:gravity="center_vertical"
-                                android:textSize="15sp"
                                 android:layout_marginLeft="10dp"
                                 android:background="@drawable/text_biankuang_strok_orange"
-                                android:text="标签1"/>
+                                android:gravity="center_vertical"
+                                android:padding="5dp"
+                                android:text="中国北极村"
+                                android:textSize="15sp" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:padding="5dp"
-                                android:gravity="center_vertical"
-                                android:textSize="15sp"
                                 android:layout_marginLeft="10dp"
                                 android:background="@drawable/text_biankuang_strok_orange"
-                                android:text="标签2"/>
+                                android:gravity="center_vertical"
+                                android:padding="5dp"
+                                android:text="神奇天象"
+                                android:textSize="15sp" />
 
                         </LinearLayout>
 
@@ -572,10 +577,10 @@
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="2"
-                            android:padding="10dp"
                             android:gravity="center_vertical"
-                            android:textSize="15sp"
-                            android:text="路线的基本介绍"/>
+                            android:padding="10dp"
+                            android:text="北极村凭借中国最北、神奇天象、极地冰雪等国内独特的资源景观。"
+                            android:textSize="15sp" />
 
                     </LinearLayout>
 
@@ -604,7 +609,8 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:scaleType="fitXY"
-                        android:src="@color/olivedrab" />
+                        android:src="@color/olivedrab"
+                        app:srcCompat="@drawable/wusulijiangh" />
 
                     <LinearLayout
                         android:layout_width="0dp"
@@ -618,7 +624,7 @@
                             android:layout_weight="1.5"
                             android:gravity="center_vertical"
                             android:padding="10dp"
-                            android:text="名称"
+                            android:text="乌苏里江"
                             android:textSize="20sp"
                             android:textStyle="bold" />
 
@@ -631,22 +637,22 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:padding="5dp"
-                                android:gravity="center_vertical"
-                                android:textSize="15sp"
                                 android:layout_marginLeft="10dp"
                                 android:background="@drawable/text_biankuang_strok_orange"
-                                android:text="标签1"/>
+                                android:gravity="center_vertical"
+                                android:padding="5dp"
+                                android:text="乌苏里江"
+                                android:textSize="15sp" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:padding="5dp"
-                                android:gravity="center_vertical"
-                                android:textSize="15sp"
                                 android:layout_marginLeft="10dp"
                                 android:background="@drawable/text_biankuang_strok_orange"
-                                android:text="标签2"/>
+                                android:gravity="center_vertical"
+                                android:padding="5dp"
+                                android:text="界河"
+                                android:textSize="15sp" />
 
                         </LinearLayout>
 
@@ -654,10 +660,10 @@
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="2"
-                            android:padding="10dp"
                             android:gravity="center_vertical"
-                            android:textSize="15sp"
-                            android:text="路线的基本介绍"/>
+                            android:padding="10dp"
+                            android:text="上游由乌拉河和道比河汇合而成。两河均发源于锡霍特山脉西南坡。"
+                            android:textSize="15sp" />
 
                     </LinearLayout>
 

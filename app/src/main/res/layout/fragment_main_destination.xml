@@ -50,14 +50,16 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-                        android:src="@color/blanchedalmond" />
+                        android:scaleType="fitXY"
+                        android:src="@color/blanchedalmond"
+                        app:srcCompat="@drawable/dongbeidagu" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="当前近况"/>
+                        android:text="东北大鼓" />
 
                 </LinearLayout>
 
@@ -73,14 +75,16 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-                        android:src="@color/aquamarine" />
+                        android:scaleType="fitXY"
+                        android:src="@color/aquamarine"
+                        app:srcCompat="@drawable/manaodiaoke" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="当前近况" />
+                        android:text="玛瑙雕刻" />
 
                 </LinearLayout>
 
@@ -95,14 +99,16 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-                        android:src="@color/chocolate" />
+                        android:scaleType="fitXY"
+                        android:src="@color/chocolate"
+                        app:srcCompat="@drawable/dandiao" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="当前近况"/>
+                        android:text="蛋雕制品" />
 
                 </LinearLayout>
 
@@ -117,14 +123,16 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-                        android:src="@color/cornsilk" />
+                        android:scaleType="fitXY"
+                        android:src="@color/cornsilk"
+                        app:srcCompat="@drawable/hululaohua" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="当前近况"/>
+                        android:text="葫芦烙画" />
 
                 </LinearLayout>
 
