@@ -43,7 +43,10 @@
                             android:layout_width="60dp"
                             android:layout_height="60dp"
                             android:scaleType="fitXY"
-                            android:src="@color/brown" />
+                            android:paddingTop="20sp"
+                            android:paddingBottom="20sp"
+                            android:paddingRight="30sp"
+                            android:src="@drawable/zuo_dark" />
 
                         <TextView
                             android:layout_width="0dp"
@@ -51,14 +54,17 @@
                             android:layout_weight="1"
                             android:gravity="center"
                             android:text="@string/mine_my"
-                            android:textSize="25sp"
+                            android:textSize="20sp"
                             android:textStyle="bold" />
 
                         <ImageView
                             android:layout_width="60dp"
                             android:layout_height="60dp"
                             android:scaleType="fitXY"
-                            android:src="@color/pink" />
+                            android:src="@drawable/menu_dark"
+                            android:paddingLeft="34sp"
+                            android:paddingTop="18sp"
+                            android:paddingBottom="18sp" />
 
                     </LinearLayout>
 
@@ -81,14 +87,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:gravity="center"
-                android:textSize="20sp"
-                android:text="你的昵称" />
+                android:text="壹路小六"
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:gravity="center"
-                android:text="你的个人介绍" />
+                android:text="传中国文化，博华夏精神" />
 
             <View
                 android:layout_width="match_parent"
@@ -112,7 +118,9 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-                        android:src="@color/tan" />
+                        android:src="@color/tan"
+                        app:srcCompat="@drawable/shoucang1"
+                        android:padding="15dp"/>
 
                     <TextView
                         android:layout_width="match_parent"
@@ -124,6 +132,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/order_linearlayout"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -133,7 +142,9 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-                        android:src="@color/transparent_bisque" />
+                        android:src="@color/transparent_bisque"
+                        app:srcCompat="@drawable/ziyuan"
+                        android:padding="15dp" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -154,7 +165,9 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-                        android:src="@color/darksalmon" />
+                        android:src="@color/darksalmon"
+                        app:srcCompat="@drawable/luxianchaxun"
+                        android:padding="15dp" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -175,7 +188,9 @@
                     <ImageView
                         android:layout_width="60dp"
                         android:layout_height="60dp"
-                        android:src="@color/transparent_cornsilk" />
+                        android:src="@color/transparent_cornsilk"
+                        app:srcCompat="@drawable/fabiao"
+                        android:padding="15dp" />
 
                     <TextView
                         android:layout_width="match_parent"
@@ -213,8 +228,9 @@
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_margin="10dp"
-                    android:src="@color/green"
-                    android:scaleType="fitXY"/>
+                    android:scaleType="fitXY"
+                    android:padding="15sp"
+                    android:src="@drawable/fenxiang_dark" />
 
             </LinearLayout>
 
@@ -337,10 +353,11 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/linearlayout"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
-                android:orientation="horizontal"
-                android:gravity="center_vertical">
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="75dp"
@@ -357,17 +374,17 @@
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
                         android:layout_weight="1"
-                        android:text="攻略名称"
                         android:gravity="bottom"
-                        android:textSize="25sp"/>
+                        android:text="攻略名称"
+                        android:textSize="25sp" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
                         android:layout_weight="1"
+                        android:gravity="center_vertical"
                         android:text="一些基本的攻略概要"
-                        android:textSize="15dp"
-                        android:gravity="center_vertical"/>
+                        android:textSize="15dp" />
 
                 </LinearLayout>
 

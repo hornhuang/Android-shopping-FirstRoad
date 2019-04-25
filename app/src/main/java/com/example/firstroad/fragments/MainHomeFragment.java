@@ -1,6 +1,7 @@
 package com.example.firstroad.fragments;
 
 import android.content.Context;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -8,9 +9,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 
 import com.bumptech.glide.Glide;
 import com.example.firstroad.R;
+import com.example.firstroad.itemdetails.ClopediaDetailActivity;
+import com.example.firstroad.itemdetails.GoodsDetailsActivity;
 import com.youth.banner.Banner;
 import com.youth.banner.BannerConfig;
 import com.youth.banner.Transformer;
@@ -58,6 +63,24 @@ public class MainHomeFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_main_destination, container, false);
+
+        LinearLayout linearLayout = view.findViewById(R.id.linearlayout);
+        RelativeLayout relativeLayout = view.findViewById(R.id.relative_layout);
+
+        linearLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), GoodsDetailsActivity.class));
+            }
+        });
+
+        relativeLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), ClopediaDetailActivity.class));
+            }
+        });
+
         iniBanner(view);
         return view;
     }

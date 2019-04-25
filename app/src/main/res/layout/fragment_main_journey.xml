@@ -58,8 +58,10 @@
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="3"
+                            android:padding="15dp"
+                            android:scaleType="fitXY"
                             android:src="@color/darkgreen"
-                            android:scaleType="fitXY"/>
+                            app:srcCompat="@drawable/shoucang_routes" />
 
                         <TextView
                             android:layout_width="match_parent"
@@ -81,8 +83,10 @@
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="3"
+                            android:padding="15dp"
+                            android:scaleType="fitXY"
                             android:src="@color/aquamarine"
-                            android:scaleType="fitXY"/>
+                            app:srcCompat="@drawable/shoucang2_routes" />
 
                         <TextView
                             android:layout_width="match_parent"
@@ -94,25 +98,28 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/paly_card_view"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:padding="5dp"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        android:padding="5dp">
 
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="3"
-                            android:src="@color/goldenrod"
-                            android:scaleType="fitXY"/>
+                            android:padding="15dp"
+                            android:scaleType="fitXY"
+                            android:src="@color/aquamarine"
+                            app:srcCompat="@drawable/wanle_routes" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="玩乐"/>
+                            android:text="玩乐" />
 
                     </LinearLayout>
 
@@ -127,15 +134,17 @@
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="3"
-                            android:src="@color/violet"
-                            android:scaleType="fitXY"/>
+                            android:padding="15dp"
+                            android:scaleType="fitXY"
+                            android:src="@color/aquamarine"
+                            app:srcCompat="@drawable/kefu_routes" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="1"
                             android:gravity="center"
-                            android:text="客服"/>
+                            android:text="客服" />
 
                     </LinearLayout>
 
@@ -208,6 +217,7 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/routes_recommended"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
@@ -221,8 +231,8 @@
                             <ImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:src="@color/darkcyan"
-                                android:scaleType="fitXY"/>
+                                android:scaleType="fitXY"
+                                android:src="@color/darkcyan" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -249,9 +259,9 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="0dp"
                                 android:layout_weight="1"
-                                android:textSize="15sp"
                                 android:gravity="center"
-                                android:text="主要活动内容"/>
+                                android:text="主要活动内容"
+                                android:textSize="15sp" />
 
                         </LinearLayout>
 
@@ -345,8 +355,9 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:scaleType="fitXY"
                         android:src="@color/gold"
-                        android:scaleType="fitXY"/>
+                        app:srcCompat="@drawable/mudiaozhongcai" />
 
                     <LinearLayout
                         android:layout_width="0dp"
@@ -360,7 +371,7 @@
                             android:layout_weight="1.5"
                             android:gravity="center_vertical"
                             android:padding="10dp"
-                            android:text="名称"
+                            android:text="木雕重彩"
                             android:textSize="20sp"
                             android:textStyle="bold" />
 
@@ -373,17 +384,21 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:padding="10dp"
+                                android:padding="5dp"
                                 android:gravity="center_vertical"
                                 android:textSize="15sp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/text_biankuang_strok_orange"
                                 android:text="标签1"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:padding="10dp"
+                                android:padding="5dp"
                                 android:gravity="center_vertical"
                                 android:textSize="15sp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/text_biankuang_strok_orange"
                                 android:text="标签2"/>
 
                         </LinearLayout>
@@ -404,14 +419,15 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
+                android:id="@+id/routes_all_play"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:layout_marginTop="5dp"
                 android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="5dp"
-                app:cardCornerRadius="10sp"
                 android:elevation="0dp"
+                app:cardCornerRadius="10sp"
                 app:cardElevation="0dp">
 
                 <LinearLayout
@@ -451,18 +467,22 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:padding="10dp"
                                 android:gravity="center_vertical"
-                                android:textSize="15sp"
-                                android:text="标签1"/>
+                                android:padding="5dp"
+                                android:text="标签1"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/text_biankuang_strok_orange"
+                                android:textSize="15sp" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:padding="10dp"
                                 android:gravity="center_vertical"
-                                android:textSize="15sp"
-                                android:text="标签2"/>
+                                android:padding="5dp"
+                                android:text="标签2"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/text_biankuang_strok_orange"
+                                android:textSize="15sp" />
 
                         </LinearLayout>
 
@@ -470,10 +490,10 @@
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_weight="2"
-                            android:padding="10dp"
                             android:gravity="center_vertical"
-                            android:textSize="15sp"
-                            android:text="路线的基本介绍"/>
+                            android:padding="10dp"
+                            android:text="路线的基本介绍"
+                            android:textSize="15sp" />
 
                     </LinearLayout>
 
@@ -529,17 +549,21 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:padding="10dp"
+                                android:padding="5dp"
                                 android:gravity="center_vertical"
                                 android:textSize="15sp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/text_biankuang_strok_orange"
                                 android:text="标签1"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:padding="10dp"
+                                android:padding="5dp"
                                 android:gravity="center_vertical"
                                 android:textSize="15sp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/text_biankuang_strok_orange"
                                 android:text="标签2"/>
 
                         </LinearLayout>
@@ -607,17 +631,21 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:padding="10dp"
+                                android:padding="5dp"
                                 android:gravity="center_vertical"
                                 android:textSize="15sp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/text_biankuang_strok_orange"
                                 android:text="标签1"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:padding="10dp"
+                                android:padding="5dp"
                                 android:gravity="center_vertical"
                                 android:textSize="15sp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/text_biankuang_strok_orange"
                                 android:text="标签2"/>
 
                         </LinearLayout>

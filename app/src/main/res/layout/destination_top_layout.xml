@@ -26,7 +26,7 @@
             android:layout_height="35dp"
             android:layout_margin="8dp"
             android:scaleType="fitXY"
-            android:src="@mipmap/appicon" />
+            app:srcCompat="@drawable/xiaoxi" />
 
     </LinearLayout>
 
@@ -100,7 +100,8 @@
                     <ImageView
                         android:layout_width="15dp"
                         android:layout_height="15dp"
-                        app:srcCompat="@color/greenyellow" />
+                        app:srcCompat="@drawable/duoyun"
+                        android:scaleType="fitXY"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -120,7 +121,8 @@
                 <ImageView
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    app:srcCompat="@color/burlywood" />
+                    app:srcCompat="@drawable/xiangji"
+                    android:scaleType="fitXY"/>
 
                 <TextView
                     android:layout_width="match_parent"

@@ -1,13 +1,18 @@
 package com.example.firstroad.fragments;
 
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.CardView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 
 import com.example.firstroad.R;
+import com.example.firstroad.itemdetails.RoutesDetailsActivity;
+import com.example.firstroad.itemdetails.RoutesPlayDetailsActivity;
 
 public class MainRoutesFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
@@ -47,7 +52,29 @@ public class MainRoutesFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_main_journey, container, false);
+        View view = inflater.inflate(R.layout.fragment_main_journey, container, false);
+        LinearLayout linearLayout = view.findViewById(R.id.paly_card_view);
+        linearLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), RoutesPlayDetailsActivity.class));
+            }
+        });
+        LinearLayout linearLayout1 = view.findViewById(R.id.routes_recommended);
+        linearLayout1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), RoutesDetailsActivity.class));
+            }
+        });
+        CardView cardView = view.findViewById(R.id.routes_all_play);
+        cardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), RoutesDetailsActivity.class));
+            }
+        });
+        return view;
     }
 
     public void onButtonPressed(Uri uri) {

@@ -51,14 +51,14 @@ public class MainGoodsFragment extends Fragment implements View.OnClickListener 
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_main_find, container, false);
-//        LinearLayout linearLayout = (LinearLayout) view.findViewById(R.id.truth_goods);
-//        linearLayout.setOnClickListener(this);
-//        layout.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                startActivity(new Intent(getActivity(), GoodsDetailsActivity.class));
-//            }
-//        });
+        LinearLayout linearLayout01 = (LinearLayout) view.findViewById(R.id.truth_goods);
+        linearLayout01.setOnClickListener(this);
+        linearLayout01.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getActivity(), GoodsDetailsActivity.class));
+            }
+        });
         return view;
     }
 
@@ -76,11 +76,11 @@ public class MainGoodsFragment extends Fragment implements View.OnClickListener 
 
     @Override
     public void onClick(View v) {
-//        switch (v.getId()){
-//            case R.id.truth_goods:
-//                startActivity(new Intent(getActivity(), GoodsDetailsActivity.class));
-//                break;
-//        }
+        switch (v.getId()){
+            case R.id.truth_goods:
+                startActivity(new Intent(getActivity(), GoodsDetailsActivity.class));
+                break;
+        }
     }
 
     public interface OnFragmentInteractionListener {

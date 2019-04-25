@@ -24,7 +24,9 @@
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@color/lightpink" />
+                    android:background="@color/lightpink"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/clopedia_head_photo" />
 
                 <EditText
                     android:layout_width="match_parent"
@@ -74,7 +76,9 @@
                             <ImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:background="@color/gold" />
+                                android:background="@color/gold"
+                                android:scaleType="fitXY"
+                                app:srcCompat="@drawable/lanxiguaqian" />
 
                         </android.support.v7.widget.CardView>
 
@@ -83,19 +87,19 @@
                             android:layout_height="35dp"
                             android:gravity="center_vertical"
                             android:padding="5dp"
-                            android:text="物品名称"
+                            android:singleLine="true"
+                            android:text="兰西挂钱"
                             android:textSize="20sp"
-                            android:textStyle="bold"
-                            android:singleLine="true" />
+                            android:textStyle="bold" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="50dp"
                             android:gravity="center_vertical"
                             android:padding="5dp"
-                            android:text="百科物品介绍，简介等基本信息摘要"
-                            android:textSize="15sp"
-                            android:singleLine="true" />
+                            android:singleLine="true"
+                            android:text="黑龙江省的特色传统手工艺品。"
+                            android:textSize="15sp" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -154,7 +158,9 @@
                             <ImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:background="@color/lightblue" />
+                                android:background="@color/lightblue"
+                                android:scaleType="fitXY"
+                                app:srcCompat="@drawable/yupiloukongtiehua" />
 
                         </android.support.v7.widget.CardView>
 
@@ -163,19 +169,19 @@
                             android:layout_height="35dp"
                             android:gravity="center_vertical"
                             android:padding="5dp"
-                            android:text="物品名称"
+                            android:singleLine="true"
+                            android:text="鱼皮镂刻粘贴画"
                             android:textSize="20sp"
-                            android:textStyle="bold"
-                            android:singleLine="true" />
+                            android:textStyle="bold" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="50dp"
                             android:gravity="center_vertical"
                             android:padding="5dp"
-                            android:text="百科物品介绍，简介等基本信息摘要"
-                            android:textSize="15sp"
-                            android:singleLine="true" />
+                            android:singleLine="true"
+                            android:text="鱼皮镂刻与鱼皮剪贴画艺术作品"
+                            android:textSize="15sp" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -216,6 +222,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/clopedia_item"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
@@ -241,7 +248,9 @@
                             <ImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:background="@color/indianred" />
+                                android:background="@color/indianred"
+                                android:scaleType="fitXY"
+                                app:srcCompat="@drawable/huashupihua" />
 
                         </android.support.v7.widget.CardView>
 
@@ -250,19 +259,19 @@
                             android:layout_height="35dp"
                             android:gravity="center_vertical"
                             android:padding="5dp"
-                            android:text="物品名称"
+                            android:singleLine="true"
+                            android:text="桦树皮画"
                             android:textSize="20sp"
-                            android:textStyle="bold"
-                            android:singleLine="true" />
+                            android:textStyle="bold" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="50dp"
                             android:gravity="center_vertical"
                             android:padding="5dp"
-                            android:text="百科物品介绍，简介等基本信息摘要"
-                            android:textSize="15sp"
-                            android:singleLine="true" />
+                            android:singleLine="true"
+                            android:text="树皮为原料经过“艺人”的精细加工制成"
+                            android:textSize="15sp" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -282,9 +291,9 @@
                                 android:layout_weight="1"
                                 android:gravity="center_vertical"
                                 android:padding="5dp"
+                                android:singleLine="true"
                                 android:text="用户昵称"
-                                android:textSize="15sp"
-                                android:singleLine="true" />
+                                android:textSize="15sp" />
 
                             <TextView
                                 android:layout_width="0dp"
@@ -292,9 +301,9 @@
                                 android:layout_weight="1"
                                 android:gravity="center_vertical"
                                 android:padding="5dp"
+                                android:singleLine="true"
                                 android:text="25w 阅读"
-                                android:textSize="15sp"
-                                android:singleLine="true" />
+                                android:textSize="15sp" />
 
                         </LinearLayout>
 
@@ -321,7 +330,9 @@
                             <ImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:background="@color/khaki" />
+                                android:background="@color/khaki"
+                                android:scaleType="fitXY"
+                                app:srcCompat="@drawable/hanbodaidamingge" />
 
                         </android.support.v7.widget.CardView>
 
@@ -330,19 +341,19 @@
                             android:layout_height="35dp"
                             android:gravity="center_vertical"
                             android:padding="5dp"
-                            android:text="物品名称"
+                            android:singleLine="true"
+                            android:text="罕伯岱达斡尔族民歌"
                             android:textSize="20sp"
-                            android:textStyle="bold"
-                            android:singleLine="true" />
+                            android:textStyle="bold" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="50dp"
                             android:gravity="center_vertical"
                             android:padding="5dp"
-                            android:text="百科物品介绍，简介等基本信息摘要"
-                            android:textSize="15sp"
-                            android:singleLine="true" />
+                            android:singleLine="true"
+                            android:text="杜尔门沁达斡尔族乡罕伯岱村达斡尔族同胞世代传承的原创民歌"
+                            android:textSize="15sp" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -362,9 +373,9 @@
                                 android:layout_weight="1"
                                 android:gravity="center_vertical"
                                 android:padding="5dp"
+                                android:singleLine="true"
                                 android:text="用户昵称"
-                                android:textSize="15sp"
-                                android:singleLine="true" />
+                                android:textSize="15sp" />
 
                             <TextView
                                 android:layout_width="0dp"
@@ -372,9 +383,9 @@
                                 android:layout_weight="1"
                                 android:gravity="center_vertical"
                                 android:padding="5dp"
+                                android:singleLine="true"
                                 android:text="25w 阅读"
-                                android:textSize="15sp"
-                                android:singleLine="true" />
+                                android:textSize="15sp" />
 
                         </LinearLayout>
 
@@ -408,7 +419,9 @@
                             <ImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:background="@color/lightblue" />
+                                android:background="@color/lightblue"
+                                android:scaleType="fitXY"
+                                app:srcCompat="@drawable/wankuipiyinxi" />
 
                         </android.support.v7.widget.CardView>
 
@@ -417,19 +430,19 @@
                             android:layout_height="35dp"
                             android:gravity="center_vertical"
                             android:padding="5dp"
-                            android:text="物品名称"
+                            android:singleLine="true"
+                            android:text="奎皮影戏"
                             android:textSize="20sp"
-                            android:textStyle="bold"
-                            android:singleLine="true" />
+                            android:textStyle="bold" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="50dp"
                             android:gravity="center_vertical"
                             android:padding="5dp"
-                            android:text="百科物品介绍，简介等基本信息摘要"
-                            android:textSize="15sp"
-                            android:singleLine="true" />
+                            android:singleLine="true"
+                            android:text="江北派的望奎皮影，素有皮影之乡的美誉"
+                            android:textSize="15sp" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -488,7 +501,9 @@
                             <ImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:background="@color/indianred" />
+                                android:background="@color/indianred"
+                                android:scaleType="fitXY"
+                                app:srcCompat="@drawable/qingniuhulu" />
 
                         </android.support.v7.widget.CardView>
 
@@ -497,19 +512,19 @@
                             android:layout_height="35dp"
                             android:gravity="center_vertical"
                             android:padding="5dp"
-                            android:text="物品名称"
+                            android:singleLine="true"
+                            android:text="青牛葫芦"
                             android:textSize="20sp"
-                            android:textStyle="bold"
-                            android:singleLine="true" />
+                            android:textStyle="bold" />
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="50dp"
                             android:gravity="center_vertical"
                             android:padding="5dp"
-                            android:text="百科物品介绍，简介等基本信息摘要"
-                            android:textSize="15sp"
-                            android:singleLine="true" />
+                            android:singleLine="true"
+                            android:text="葫芦上使用雕刻绘画手段雕刻"
+                            android:textSize="15sp" />
 
                         <LinearLayout
                             android:layout_width="match_parent"

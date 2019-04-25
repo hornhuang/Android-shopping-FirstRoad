@@ -41,7 +41,7 @@
     <color name="ghostwhite">#f8f8ff</color> <!-- 幽灵白 -->
     <color name="mintcream">#f5fffa</color> <!-- 薄荷色 -->
     <color name="whitesmoke">#f5f5f5</color> <!-- 烟白色 -->
-    <color name="beige">#f5f5dc</color> <!-- 米色 -->
+    <color name="beige">#F5F5DC</color> <!-- 米色 -->
     <color name="wheat">#f5deb3</color> <!-- 浅黄色 -->
     <color name="sandybrown">#f4a460</color> <!-- 沙褐色 -->
     <color name="azure">#f0ffff</color> <!-- 天蓝色 -->
@@ -93,7 +93,7 @@
     <color name="saddlebrown">#8b4513</color> <!-- 重褐色 -->
     <color name="darkmagenta">#8b008b</color> <!-- 暗洋红 -->
     <color name="darkred">#8b0000</color> <!-- 暗红色 -->
-    <color name="blueviolet">#8a2be2</color> <!-- 紫罗兰蓝色 -->
+    <color name="blueviolet">#8A2BE2</color> <!-- 紫罗兰蓝色 -->
     <color name="lightskyblue">#87cefa</color> <!-- 亮天蓝色 -->
     <color name="skyblue">#87ceeb</color> <!-- 天蓝色 -->
     <color name="gray">#808080</color> <!-- 灰色 -->
@@ -114,8 +114,8 @@
     <color name="dimgray">#696969</color> <!-- 暗灰色 -->
     <color name="dimgrey">#696969</color> <!-- 暗灰色 -->
     <color name="mediumaquamarine">#66cdaa</color> <!-- 中绿色 -->
-    <color name="cornflowerblue">#6495ed</color> <!-- 菊兰色 -->
-    <color name="cadetblue">#5f9ea0</color> <!-- 军兰色 -->
+    <color name="cornflowerblue">#6495ED</color> <!-- 菊兰色 -->
+    <color name="cadetblue">#5F9EA0</color> <!-- 军兰色 -->
     <color name="darkolivegreen">#556b2f</color> <!-- 暗橄榄绿 -->
     <color name="indigo">#4b0082</color> <!-- 靛青色 -->
     <color name="mediumturquoise">#48d1cc</color> <!-- 中绿宝石 -->
@@ -133,7 +133,7 @@
     <color name="dodgerblue">#1e90ff</color> <!-- 闪兰色 -->
     <color name="midnightblue">#191970</color> <!-- 中灰兰色 -->
     <color name="aqua">#00ffff</color> <!-- 浅绿色 -->
-    <color name="cyan">#00ffff</color> <!-- 青色 -->
+    <color name="cyan">#00FFFF</color> <!-- 青色 -->
     <color name="springgreen">#00ff7f</color> <!-- 春绿色 -->
     <color name="lime">#00ff00</color> <!-- 酸橙色 -->
     <color name="mediumspringgreen">#00fa9a</color> <!-- 中春绿色 -->

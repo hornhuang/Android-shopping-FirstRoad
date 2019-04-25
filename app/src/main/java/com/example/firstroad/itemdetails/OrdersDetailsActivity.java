@@ -5,11 +5,11 @@ import android.os.Bundle;
 
 import com.example.firstroad.R;
 
-public class ClopediaDetailsActivity extends AppCompatActivity {
+public class OrdersDetailsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_clopedia_details);
+        setContentView(R.layout.activity_orders_details);
     }
 }
