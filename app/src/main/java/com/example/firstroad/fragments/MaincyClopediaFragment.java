@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
 import com.example.firstroad.R;
-import com.example.firstroad.itemdetails.ClopediaDetailActivity;
+import com.example.firstroad.pages.clopedia.Clopediahuashupihua;
 
 
 public class MaincyClopediaFragment extends Fragment {
@@ -54,7 +54,7 @@ public class MaincyClopediaFragment extends Fragment {
         linearLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getActivity(), ClopediaDetailActivity.class));
+                startActivity(new Intent(getActivity(), Clopediahuashupihua.class));
             }
         });
         return view;

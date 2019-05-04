@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
 import com.example.firstroad.R;
-import com.example.firstroad.itemdetails.GoodsDetailsActivity;
+import com.example.firstroad.pages.goods.Goods_haerbin_hongchan;
 
 public class MainGoodsFragment extends Fragment implements View.OnClickListener {
     // TODO: Rename parameter arguments, choose names that match
@@ -56,7 +56,7 @@ public class MainGoodsFragment extends Fragment implements View.OnClickListener 
         linearLayout01.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getActivity(), GoodsDetailsActivity.class));
+                startActivity(new Intent(getActivity(), Goods_haerbin_hongchan.class));
             }
         });
         return view;
@@ -78,7 +78,7 @@ public class MainGoodsFragment extends Fragment implements View.OnClickListener 
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.truth_goods:
-                startActivity(new Intent(getActivity(), GoodsDetailsActivity.class));
+                startActivity(new Intent(getActivity(), Goods_haerbin_hongchan.class));
                 break;
         }
     }

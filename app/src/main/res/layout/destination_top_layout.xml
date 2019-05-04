@@ -60,13 +60,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <ImageView
-                    android:layout_width="15dp"
-                    android:layout_height="match_parent"
-                    android:layout_marginLeft="5dp"
-                    android:scaleType="fitXY"
-                    android:src="@mipmap/appicon" />
-
             </LinearLayout>
 
         </LinearLayout>
@@ -86,8 +79,7 @@
 
                 <TextView
                     android:layout_width="wrap_content"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
                     android:layout_marginBottom="3dp"
                     android:text="怡情小赌，购物看秀 high 翻天"
                     android:textColor="@color/white" />
@@ -95,7 +87,8 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="0dp"
-                    android:layout_weight="1">
+                    android:layout_weight="1.5"
+                    android:gravity="center_vertical">
 
                     <ImageView
                         android:layout_width="15dp"
@@ -105,8 +98,9 @@
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:text="20 ~ 24 C" />
+                        android:layout_height="20sp"
+                        android:text=" 20 ~ 24 C"
+                        android:textColor="@color/white" />
 
                 </LinearLayout>
 

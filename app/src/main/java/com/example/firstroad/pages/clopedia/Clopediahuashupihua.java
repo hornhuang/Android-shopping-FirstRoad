@@ -1,15 +1,18 @@
-package com.example.firstroad.itemdetails;
+package com.example.firstroad.pages.clopedia;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.example.firstroad.R;
 
-public class ClopediaDetailActivity extends AppCompatActivity {
+/**非遗百科
+ * 桦树皮画
+ */
+public class Clopediahuashupihua extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_clopedia_detail);
+        setContentView(R.layout.activity_clopedia_huashupihua);
     }
 }

@@ -11,8 +11,9 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
 import com.example.firstroad.R;
-import com.example.firstroad.itemdetails.RoutesDetailsActivity;
-import com.example.firstroad.itemdetails.RoutesPlayDetailsActivity;
+import com.example.firstroad.pages.routes.clopedias.Routes_Clopedia_Man_Zu_Ban_Jin_Jie;
+import com.example.firstroad.pages.routes.routes.RoutesRoutes_chang_Bai_Shan;
+import com.example.firstroad.pages.routes.Routes_Funtions_Play;
 
 public class MainRoutesFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
@@ -57,21 +58,21 @@ public class MainRoutesFragment extends Fragment {
         linearLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getActivity(), RoutesPlayDetailsActivity.class));
+                startActivity(new Intent(getActivity(), Routes_Funtions_Play.class));
             }
         });
         LinearLayout linearLayout1 = view.findViewById(R.id.routes_recommended);
         linearLayout1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getActivity(), RoutesDetailsActivity.class));
+                startActivity(new Intent(getActivity(), Routes_Clopedia_Man_Zu_Ban_Jin_Jie.class));
             }
         });
         CardView cardView = view.findViewById(R.id.routes_all_play);
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getActivity(), RoutesDetailsActivity.class));
+                startActivity(new Intent(getActivity(), RoutesRoutes_chang_Bai_Shan.class));
             }
         });
         return view;

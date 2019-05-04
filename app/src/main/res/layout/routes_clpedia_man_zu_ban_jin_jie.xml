@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context=".itemdetails.ClopediaDetailMineActivity">
+    tools:context=".pages.routes.clopedias.Routes_Clopedia_Man_Zu_Ban_Jin_Jie">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,13 +15,13 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/bindeng_1" />
+            app:srcCompat="@drawable/manzupojinjie_2" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp"
-            android:text="哈尔滨冰灯冰雕"
+            android:text="满族颁金节"
             android:textSize="20dp" />
 
         <TextView
@@ -29,16 +29,16 @@
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:paddingLeft="10dp"
-            android:text="1,025阅读|12评论"/>
+            android:text="301,345阅读|12评论"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:layout_marginLeft="10dp"
-            android:background="@drawable/text_biankuang_strok_purple"
             android:padding="10dp"
-            android:text="冰灯冰雕" />
+            android:background="@drawable/text_biankuang_strok_purple"
+            android:text="传统节日" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -48,10 +48,9 @@
             <ImageView
                 android:layout_width="?actionBarSize"
                 android:layout_height="?actionBarSize"
-                android:layout_marginLeft="10dp"
-                android:padding="5dp"
+                app:srcCompat="@drawable/laobaceping_head"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/xiaojuju" />
+                android:layout_marginLeft="10dp"/>
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -63,7 +62,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="3dp"
-                    android:text="小橘橘"
+                    android:text="老爸测评"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -71,7 +70,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="3dp"
-                    android:text="世界很大，我们很小，带我去旅行" />
+                    android:text="品生活小事，分享趣意生活"/>
 
             </LinearLayout>
 
@@ -82,14 +81,14 @@
             android:layout_height="300dp"
             android:padding="30dp"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/bingdeng_2" />
+            app:srcCompat="@drawable/manzupojinjie_4" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:textSize="15sp"
-            android:text="哈尔滨的冬天冰天雪地\n上世纪60年代初以前\n哈尔滨老百姓已习惯长期待在家里不出门\n东北人称为“猫冬”\n公园没人去\n成了“半年闲”。"/>
+            android:text="“颁金”是满语\n意为满族命名之日\n明崇祯八年（1635年十月十三日）\n后金汗王努尔哈赤的儿子爱新觉罗\n皇太极废除女真（又译为诸申）的旧称\n将族名定为满洲。"/>
 
 
         <ImageView
@@ -97,49 +96,49 @@
             android:layout_height="300dp"
             android:padding="30dp"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/bingdeng_3" />
+            app:srcCompat="@drawable/manzupojinjie_1" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:textSize="15sp"
-            android:text="只要晚上不开会\n他就要到广州市区转一转\n他听说广州文化公园搞了花卉展\n便饶有兴趣地横过珠江边的西堤二马路走进广州文化公园\n他立刻被眼前热闹的场面吸引住了\n花卉展繁花似锦\n彩灯璀璨\n人如潮涌。"/>
+            android:text="汉人建立的宋朝和女真人完颜阿骨打建立的金朝\n曾经鏖战不息\n对宋朝两个皇帝被掳\n向金朝叩称儿臣的历史\n汉人作为耻辱铭记于心。"/>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="300dp"
             android:padding="30dp"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/bingdeng_4" />
+            app:srcCompat="@drawable/huashupihua_4" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:textSize="15sp"
-            android:text="他们在滴水成冰的夜晚喂马或捕鱼时\n用木桶盛水冻成冰罩\n将油灯或蜡烛放入其间\n以防被风吹灭\n后来\n有些穷人在新春佳节或上元之夜买不起灯笼但又不甘寂寞\n就做了这种冰冻灯笼罩摆在自家门前寻乐\n而富人则对它不屑一顾。"/>
+            android:text="2月13号是满洲族命名的纪念日\n三百七十一年前——天聪九年(1635年)农历十月十三日\n天聪汗皇太极宣布改族名为满洲\n从此\n一个新的民族诞生了！"/>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="300dp"
             android:padding="30dp"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/bingdeng_5" />
+            app:srcCompat="@drawable/manzupojinjie_5" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:textSize="15sp"
-            android:text="最后\n任仲夷斩钉截铁地下达动员令\n我们一定要把冰灯游园会搞成功\n叫老百姓不猫冬\n把群众的劲儿鼓起来\n让哈尔滨的冬天不再寂寞！"/>
+            android:text="回望过去\n满族先辈们走过的是一条危险重重的九曲弯道\n他们克服了千难万苦\n披荆斩棘\n百折不回\n在几千年的民族史上书写了波澜壮阔最为辉煌的一页！"/>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="300dp"
             android:padding="30dp"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/bindeng_6" />
+            app:srcCompat="@drawable/manzupojinjie_6" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -150,8 +149,7 @@
                 android:layout_width="?actionBarSize"
                 android:layout_height="?actionBarSize"
                 android:scaleType="fitXY"
-                android:src="@drawable/laobaceping_head"
-                app:srcCompat="@drawable/xiaojuju" />
+                android:src="@drawable/laobaceping_head" />
 
         </LinearLayout>
 
@@ -182,7 +180,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:padding="10dp"
-            android:text="橘子是小，世界却大，小橘子带你看世界" />
+            android:text="测评，让生活更美好。品生活小事，分享趣意生活" />
 
         <View
             android:layout_width="match_parent"
@@ -202,7 +200,7 @@
                 android:layout_width="?actionBarSize"
                 android:layout_height="?actionBarSize"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/shuren" />
+                app:srcCompat="@drawable/user_1" />
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -220,7 +218,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="小道夫"
+                        android:text="雪地老爷子"
                         android:textSize="18sp" />
 
                     <ImageView
@@ -246,7 +244,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="去年刚去过，南方人表示惊呆了，真的是惊艳啊"
+                    android:text="好想去看看 啊 啊 啊！"
                     android:textSize="18sp" />
 
             </LinearLayout>

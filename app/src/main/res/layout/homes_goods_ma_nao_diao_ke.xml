@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".itemdetails.GoodsDetailsActivity">
+    tools:context=".pages.homes.goods.homes_goods_ma_nao_diao_ke">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -21,13 +21,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="350dp"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/haerbinhongchandetail" />
+                app:srcCompat="@drawable/manaodiaoke_goods_top" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
                 android:gravity="center"
-                android:text="哈尔滨秋林红肠"
+                android:text="饰品 翡翠玉石加工雕刻"
                 android:textSize="25sp"
                 android:textStyle="bold" />
 
@@ -40,8 +40,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="50dp"
                     android:gravity="center"
-                    android:text="惊爆价：¥ 299"
                     android:paddingLeft="10dp"
+                    android:text="惊爆价：¥ 350"
                     android:textColor="@color/red"
                     android:textSize="20dp" />
 
@@ -55,7 +55,7 @@
                     android:layout_height="50dp"
                     android:gravity="center"
                     android:paddingRight="10dp"
-                    android:text="❤ 105" />
+                    android:text="❤ 34" />
 
             </LinearLayout>
 
@@ -67,9 +67,9 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="400dp"
+                android:layout_height="800dp"
                 android:padding="10dp"
-                android:src="@drawable/qiulinhongchandetail"
+                android:src="@drawable/manaodiaoke_goods"
                 android:scaleType="fitXY" />
 
             <View

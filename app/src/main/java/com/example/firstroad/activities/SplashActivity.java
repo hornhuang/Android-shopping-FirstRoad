@@ -1,14 +1,15 @@
 package com.example.firstroad.activities;
 
+import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.animation.AlphaAnimation;
 import android.widget.ImageView;
 
+import com.example.firstroad.MainActivity;
 import com.example.firstroad.R;
 
-public class SplashActivity extends AppCompatActivity {
+public class SplashActivity extends Activity {
 
     private final int SPLASH_LENGTH = 2000;
 

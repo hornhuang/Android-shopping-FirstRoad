@@ -1,5 +1,6 @@
-package com.example.firstroad.activities;
+package com.example.firstroad;
 
+import android.annotation.SuppressLint;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
@@ -8,7 +9,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import com.example.firstroad.R;
+import com.example.firstroad.activities.BaseActivity;
 import com.example.firstroad.fragments.MainHomeFragment;
 import com.example.firstroad.fragments.MainGoodsFragment;
 import com.example.firstroad.fragments.MaincyClopediaFragment;
@@ -130,6 +131,7 @@ public class MainActivity extends BaseActivity {
         }
     };
 
+    @SuppressLint("CommitTransaction")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

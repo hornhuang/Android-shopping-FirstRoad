@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".itemdetails.RoutesDetailsActivity">
+    tools:context=".pages.routes.routes.RoutesRoutes_chang_Bai_Shan">
 
     <LinearLayout
         android:layout_width="match_parent"

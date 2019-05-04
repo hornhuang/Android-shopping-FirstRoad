@@ -1,15 +1,15 @@
-package com.example.firstroad.itemdetails;
+package com.example.firstroad.pages.homes.goods;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.example.firstroad.R;
 
-public class OrdersDetailsActivity extends AppCompatActivity {
+public class homes_goods_ma_nao_diao_ke extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_orders_details);
+        setContentView(R.layout.homes_goods_ma_nao_diao_ke);
     }
 }

@@ -14,8 +14,8 @@ import android.widget.RelativeLayout;
 
 import com.bumptech.glide.Glide;
 import com.example.firstroad.R;
-import com.example.firstroad.itemdetails.ClopediaDetailActivity;
-import com.example.firstroad.itemdetails.GoodsDetailsActivity;
+import com.example.firstroad.pages.homes.clopedias.Home_Clopedia_zhen_zhu_qiu;
+import com.example.firstroad.pages.homes.goods.homes_goods_ma_nao_diao_ke;
 import com.youth.banner.Banner;
 import com.youth.banner.BannerConfig;
 import com.youth.banner.Transformer;
@@ -70,14 +70,14 @@ public class MainHomeFragment extends Fragment {
         linearLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getActivity(), GoodsDetailsActivity.class));
+                startActivity(new Intent(getActivity(), homes_goods_ma_nao_diao_ke.class));
             }
         });
 
         relativeLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getActivity(), ClopediaDetailActivity.class));
+                startActivity(new Intent(getActivity(), Home_Clopedia_zhen_zhu_qiu.class));
             }
         });
 
@@ -93,10 +93,10 @@ public class MainHomeFragment extends Fragment {
 
     private void iniBanner(View view){
         List<Integer> images = new ArrayList<>();
-        images.add(R.drawable.text_evc_top);
-        images.add(R.drawable.text_evc_top);
-        images.add(R.drawable.text_evc_top);
-        images.add(R.drawable.text_evc_top);
+        images.add(R.drawable.home_top_1);
+        images.add(R.drawable.home_top_2);
+        images.add(R.drawable.home_top_3);
+        images.add(R.drawable.home_top_4);
         titles.add("2018文化和自然遗产日");
         titles.add("川剧一绝——吐火");
         titles.add("非遗印象 品牌设计方案");

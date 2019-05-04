@@ -7,7 +7,6 @@
     tools:context=".fragments.MainGoodsFragment"
     android:background="@color/background_gray">
 
-    <!-- TODO: Update blank fragment layout -->
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -36,6 +35,7 @@
                             android:layout_height="match_parent"
                             android:gravity="center"
                             android:text="全部商品"
+                            android:textColor="@color/white"
                             android:textSize="20sp" />
 
                         <ImageView
@@ -44,7 +44,7 @@
                             android:layout_alignParentRight="true"
                             android:layout_marginTop="8dp"
                             android:layout_marginRight="10dp"
-                            android:padding="5dp"
+                            android:padding="10dp"
                             app:srcCompat="@drawable/gouwucheman" />
 
                     </RelativeLayout>
@@ -58,7 +58,8 @@
                 android:layout_height="200dp"
                 android:background="@color/khaki"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/heitao" />
+                app:srcCompat="@drawable/heitao"
+                android:layout_marginBottom="15sp"/>
 
             <GridLayout
                 android:layout_width="match_parent"
@@ -70,7 +71,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
-                    <LinearLayout
+                    <android.support.v7.widget.CardView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -79,41 +80,48 @@
                         android:layout_marginLeft="10dp"
                         android:layout_marginRight="5dp"
                         android:background="@color/white"
-                        android:orientation="vertical">
+                        app:cardCornerRadius="10dp">
 
-                        <ImageView
+                        <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="150dp"
-                            android:background="@color/bisque"
-                            android:scaleType="fitXY"
-                            app:srcCompat="@drawable/qiulinmianbao" />
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="30dp"
-                            android:gravity="center_vertical"
-                            android:paddingLeft="5dp"
-                            android:text="秋林面包"
-                            android:textStyle="bold" />
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="150dp"
+                                android:background="@color/bisque"
+                                android:scaleType="fitXY"
+                                app:srcCompat="@drawable/qiulinmianbao" />
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="30dp"
-                            android:gravity="center_vertical"
-                            android:paddingLeft="5dp"
-                            android:singleLine="true"
-                            android:text="秋林面包是一种原由哈尔滨秋林百货公司经营的俄罗斯大面包" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="5dp"
+                                android:text="秋林面包"
+                                android:textStyle="bold" />
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="30dp"
-                            android:gravity="center_vertical"
-                            android:paddingLeft="5dp"
-                            android:text="¥ 79" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="5dp"
+                                android:singleLine="true"
+                                android:text="秋林面包是一种原由哈尔滨秋林百货公司经营的俄罗斯大面包" />
 
-                    </LinearLayout>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="5dp"
+                                android:text="¥ 79" />
 
-                    <LinearLayout
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -122,39 +130,46 @@
                         android:layout_marginLeft="5dp"
                         android:layout_marginRight="10dp"
                         android:background="@color/white"
-                        android:orientation="vertical">
+                        app:cardCornerRadius="10dp">
 
-                        <ImageView
+                        <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="150dp"
-                            android:background="@color/darkkhaki"
-                            android:scaleType="fitXY"
-                            app:srcCompat="@drawable/elunchunzushoupi" />
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="30dp"
-                            android:gravity="center_vertical"
-                            android:paddingLeft="5dp"
-                            android:text="鄂伦春族兽皮"
-                            android:textStyle="bold" />
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="150dp"
+                                android:background="@color/darkkhaki"
+                                android:scaleType="fitXY"
+                                app:srcCompat="@drawable/elunchunzushoupi" />
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="30dp"
-                            android:gravity="center_vertical"
-                            android:paddingLeft="5dp"
-                            android:singleLine="true"
-                            android:text="衣裤、鞋帽、被褥以及手套、挎包等都是用兽皮缝制的。" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="5dp"
+                                android:text="鄂伦春族兽皮"
+                                android:textStyle="bold" />
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="30dp"
-                            android:gravity="center_vertical"
-                            android:paddingLeft="5dp"
-                            android:text="¥ 138" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="5dp"
+                                android:singleLine="true"
+                                android:text="衣裤、鞋帽、被褥以及手套、挎包等都是用兽皮缝制的。" />
 
-                    </LinearLayout>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="5dp"
+                                android:text="¥ 138" />
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
 
                 </LinearLayout>
 
@@ -163,8 +178,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
-                    <LinearLayout
-                        android:id="@+id/truth_goods"
+                    <android.support.v7.widget.CardView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -173,41 +187,49 @@
                         android:layout_marginLeft="10dp"
                         android:layout_marginRight="5dp"
                         android:background="@color/white"
-                        android:orientation="vertical">
+                        app:cardCornerRadius="10dp">
 
-                        <ImageView
+                        <LinearLayout
+                            android:id="@+id/truth_goods"
                             android:layout_width="match_parent"
-                            android:layout_height="150dp"
-                            android:background="@color/burlywood"
-                            android:scaleType="fitXY"
-                            app:srcCompat="@drawable/haerbinhongchan" />
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="30dp"
-                            android:gravity="center_vertical"
-                            android:paddingLeft="5dp"
-                            android:text="哈尔滨红肠"
-                            android:textStyle="bold" />
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="150dp"
+                                android:background="@color/burlywood"
+                                android:scaleType="fitXY"
+                                app:srcCompat="@drawable/haerbinhongchan" />
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="30dp"
-                            android:gravity="center_vertical"
-                            android:paddingLeft="5dp"
-                            android:singleLine="true"
-                            android:text="用猪肉、淀粉、大蒜等材料加工制作的香肠" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="5dp"
+                                android:text="哈尔滨红肠"
+                                android:textStyle="bold" />
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="30dp"
-                            android:gravity="center_vertical"
-                            android:paddingLeft="5dp"
-                            android:text="¥ 78" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="5dp"
+                                android:singleLine="true"
+                                android:text="用猪肉、淀粉、大蒜等材料加工制作的香肠" />
 
-                    </LinearLayout>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="5dp"
+                                android:text="¥ 78" />
 
-                    <LinearLayout
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -216,38 +238,45 @@
                         android:layout_marginLeft="5dp"
                         android:layout_marginRight="10dp"
                         android:background="@color/white"
-                        android:orientation="vertical">
+                        app:cardCornerRadius="10dp">
 
-                        <ImageView
+                        <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="150dp"
-                            android:background="@color/darkseagreen"
-                            android:scaleType="fitXY"
-                            app:srcCompat="@drawable/elunchuncixiu" />
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="30dp"
-                            android:gravity="center_vertical"
-                            android:paddingLeft="5dp"
-                            android:text="鄂伦春族刺绣"
-                            android:textStyle="bold" />
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="150dp"
+                                android:background="@color/darkseagreen"
+                                android:scaleType="fitXY"
+                                app:srcCompat="@drawable/elunchuncixiu" />
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="30dp"
-                            android:gravity="center_vertical"
-                            android:paddingLeft="5dp"
-                            android:singleLine="true"
-                            android:text="用各种颜色的花线直接在皮制品上刺绣" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="5dp"
+                                android:text="鄂伦春族刺绣"
+                                android:textStyle="bold" />
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="30dp"
-                            android:paddingLeft="5dp"
-                            android:gravity="center_vertical" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="5dp"
+                                android:singleLine="true"
+                                android:text="用各种颜色的花线直接在皮制品上刺绣" />
 
-                    </LinearLayout>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:paddingLeft="5dp"
+                                android:gravity="center_vertical" />
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
 
                 </LinearLayout>
 
@@ -256,7 +285,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
-                    <LinearLayout
+                    <android.support.v7.widget.CardView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -265,40 +294,47 @@
                         android:layout_marginLeft="10dp"
                         android:layout_marginRight="5dp"
                         android:background="@color/white"
-                        android:orientation="vertical">
+                        app:cardCornerRadius="10dp">
 
-                        <ImageView
+                        <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="150dp"
-                            android:background="@color/bisque"
-                            android:scaleType="fitXY"
-                            app:srcCompat="@drawable/hezezujianzhi" />
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="30dp"
-                            android:gravity="center_vertical"
-                            android:paddingLeft="5dp"
-                            android:text="赫哲族剪纸"
-                            android:textStyle="bold" />
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="150dp"
+                                android:background="@color/bisque"
+                                android:scaleType="fitXY"
+                                app:srcCompat="@drawable/hezezujianzhi" />
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="30dp"
-                            android:gravity="center_vertical"
-                            android:paddingLeft="5dp"
-                            android:text="鱼皮 剪纸 ,是刺绣的花样" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="5dp"
+                                android:text="赫哲族剪纸"
+                                android:textStyle="bold" />
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="30dp"
-                            android:gravity="center_vertical"
-                            android:paddingLeft="5dp"
-                            android:text="¥ 47" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="5dp"
+                                android:text="鱼皮 剪纸 ,是刺绣的花样" />
 
-                    </LinearLayout>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="5dp"
+                                android:text="¥ 47" />
 
-                    <LinearLayout
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -307,39 +343,46 @@
                         android:layout_marginLeft="5dp"
                         android:layout_marginRight="10dp"
                         android:background="@color/white"
-                        android:orientation="vertical">
+                        app:cardCornerRadius="10dp">
 
-                        <ImageView
+                        <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="150dp"
-                            android:background="@color/darkkhaki"
-                            android:scaleType="fitXY"
-                            app:srcCompat="@drawable/shanhetaogongyi" />
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="30dp"
-                            android:gravity="center_vertical"
-                            android:paddingLeft="5dp"
-                            android:text="山核桃"
-                            android:textStyle="bold" />
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="150dp"
+                                android:background="@color/darkkhaki"
+                                android:scaleType="fitXY"
+                                app:srcCompat="@drawable/shanhetaogongyi" />
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="30dp"
-                            android:gravity="center_vertical"
-                            android:paddingLeft="5dp"
-                            android:text="山核桃工艺品是历史悠久的传统手工艺珍品" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="5dp"
+                                android:text="山核桃"
+                                android:textStyle="bold" />
 
-                        <TextView
-                            android:id="@+id/ggge"
-                            android:layout_width="match_parent"
-                            android:layout_height="30dp"
-                            android:gravity="center_vertical"
-                            android:paddingLeft="5dp"
-                            android:text="¥ 23" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="5dp"
+                                android:text="山核桃工艺品是历史悠久的传统手工艺珍品" />
 
-                    </LinearLayout>
+                            <TextView
+                                android:id="@+id/ggge"
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="5dp"
+                                android:text="¥ 23" />
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
 
                 </LinearLayout>
 
@@ -348,7 +391,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
-                    <LinearLayout
+                    <android.support.v7.widget.CardView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -357,40 +400,47 @@
                         android:layout_marginLeft="10dp"
                         android:layout_marginRight="5dp"
                         android:background="@color/white"
-                        android:orientation="vertical">
+                        app:cardCornerRadius="10dp">
 
-                        <ImageView
+                        <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="150dp"
-                            android:background="@color/darkorange"
-                            android:scaleType="fitXY"
-                            app:srcCompat="@drawable/beidacanjiu" />
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="30dp"
-                            android:gravity="center_vertical"
-                            android:paddingLeft="5dp"
-                            android:text="北大仓酒"
-                            android:textStyle="bold" />
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="150dp"
+                                android:background="@color/darkorange"
+                                android:scaleType="fitXY"
+                                app:srcCompat="@drawable/beidacanjiu" />
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="30dp"
-                            android:gravity="center_vertical"
-                            android:paddingLeft="5dp"
-                            android:text="中国国家地理标志产品" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="5dp"
+                                android:text="北大仓酒"
+                                android:textStyle="bold" />
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="30dp"
-                            android:gravity="center_vertical"
-                            android:paddingLeft="5dp"
-                            android:text="¥ 699" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="5dp"
+                                android:text="中国国家地理标志产品" />
 
-                    </LinearLayout>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="5dp"
+                                android:text="¥ 699" />
 
-                    <LinearLayout
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                    <android.support.v7.widget.CardView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -399,38 +449,45 @@
                         android:layout_marginLeft="5dp"
                         android:layout_marginRight="10dp"
                         android:background="@color/white"
-                        android:orientation="vertical">
+                        app:cardCornerRadius="10dp">
 
-                        <ImageView
+                        <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="150dp"
-                            android:background="@color/darksalmon"
-                            android:scaleType="fitXY"
-                            app:srcCompat="@drawable/laodingfenzhongshigaodian" />
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="30dp"
-                            android:gravity="center_vertical"
-                            android:paddingLeft="5dp"
-                            android:text="老鼎丰中式糕点"
-                            android:textStyle="bold" />
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="150dp"
+                                android:background="@color/darksalmon"
+                                android:scaleType="fitXY"
+                                app:srcCompat="@drawable/laodingfenzhongshigaodian" />
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="30dp"
-                            android:gravity="center_vertical"
-                            android:paddingLeft="5dp"
-                            android:text="东北特产点心零食 老鼎丰蛋黄酥传统糕点" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="5dp"
+                                android:text="老鼎丰中式糕点"
+                                android:textStyle="bold" />
 
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="30dp"
-                            android:gravity="center_vertical"
-                            android:paddingLeft="5dp"
-                            android:text="¥ 69" />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="5dp"
+                                android:text="东北特产点心零食 老鼎丰蛋黄酥传统糕点" />
 
-                    </LinearLayout>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="30dp"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="5dp"
+                                android:text="¥ 69" />
+
+                        </LinearLayout>
+
+                    </android.support.v7.widget.CardView>
 
                 </LinearLayout>
 

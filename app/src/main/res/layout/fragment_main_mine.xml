@@ -29,7 +29,7 @@
                 <android.support.v7.widget.Toolbar
                     android:layout_width="match_parent"
                     android:layout_height="?attr/actionBarSize"
-                    app:layout_scrollFlags="scroll|enterAlways|snap"
+                    android:background="@color/colorAccent"
                     android:elevation="0dp"
                     app:elevation="0dp">
 
@@ -45,8 +45,8 @@
                             android:scaleType="fitXY"
                             android:paddingTop="20sp"
                             android:paddingBottom="20sp"
-                            android:paddingRight="30sp"
-                            android:src="@drawable/zuo_dark" />
+                            android:paddingRight="40sp"
+                            android:src="@drawable/left" />
 
                         <TextView
                             android:layout_width="0dp"
@@ -54,6 +54,7 @@
                             android:layout_weight="1"
                             android:gravity="center"
                             android:text="@string/mine_my"
+                            android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
 
@@ -61,8 +62,8 @@
                             android:layout_width="60dp"
                             android:layout_height="60dp"
                             android:scaleType="fitXY"
-                            android:src="@drawable/menu_dark"
-                            android:paddingLeft="34sp"
+                            android:src="@drawable/menu"
+                            android:paddingLeft="36sp"
                             android:paddingTop="18sp"
                             android:paddingBottom="18sp" />
 

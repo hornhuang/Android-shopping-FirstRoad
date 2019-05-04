@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".itemdetails.RoutesPlayDetailsActivity">
+    tools:context=".pages.routes.Routes_Funtions_Play">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -92,7 +92,8 @@
                     <ImageView
                         android:layout_width="200dp"
                         android:layout_height="200dp"
-                        app:srcCompat="@color/lightblue" />
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/laohutanhaiyanggyuan" />
 
                     <LinearLayout
                         android:layout_width="0dp"
@@ -105,7 +106,8 @@
                             android:layout_height="40dp"
                             android:gravity="center_vertical"
                             android:paddingLeft="3dp"
-                            android:text="景点名称" />
+                            android:text="老虎滩海洋公园"
+                            android:textSize="18sp" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -117,14 +119,14 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="标签一"
-                                android:layout_margin="3dp"/>
+                                android:layout_margin="3dp"
+                                android:text="公园" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="标签二"
-                                android:layout_margin="3dp"/>
+                                android:layout_margin="3dp"
+                                android:text="大连" />
 
                         </LinearLayout>
 
@@ -132,7 +134,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="80dp"
                             android:padding="3dp"
-                            android:text="只是一段代码和效果图我们不知道怎么做到对一个Android界面的绘制,根据我对线性布局的简单理解,我认为是想用线性布局作出较好的布局效果主要可以这样用"/>
+                            android:text="老虎滩海洋公园坐落于辽宁省大连市南部海滨中部，是市区南部最大的景区。占地面积118万平方米，4000余米海岸线。" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -146,7 +148,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:gravity="center"
-                                android:text="488"/>
+                                android:text="234" />
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -162,6 +164,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:background="@drawable/text_biankuang_strok_orange"
                                 android:padding="2dp"
                                 android:text="可定" />
 
@@ -191,7 +194,8 @@
                     <ImageView
                         android:layout_width="200dp"
                         android:layout_height="200dp"
-                        app:srcCompat="@color/cadetblue" />
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/gugonbowuyuan" />
 
                     <LinearLayout
                         android:layout_width="0dp"
@@ -204,7 +208,8 @@
                             android:layout_height="40dp"
                             android:gravity="center_vertical"
                             android:paddingLeft="3dp"
-                            android:text="景点名称" />
+                            android:text="沈阳故宫博物院"
+                            android:textSize="18sp" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -216,14 +221,14 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="标签一"
-                                android:layout_margin="3dp"/>
+                                android:layout_margin="3dp"
+                                android:text="沈阳" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="标签二"
-                                android:layout_margin="3dp"/>
+                                android:layout_margin="3dp"
+                                android:text="博物院" />
 
                         </LinearLayout>
 
@@ -231,7 +236,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="80dp"
                             android:padding="3dp"
-                            android:text="只是一段代码和效果图我们不知道怎么做到对一个Android界面的绘制,根据我对线性布局的简单理解,我认为是想用线性布局作出较好的布局效果主要可以这样用"/>
+                            android:text="沈阳故宫博物院 中国目前仅存最完整的两大古代宫殿建筑群之一。" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -245,7 +250,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:gravity="center"
-                                android:text="488"/>
+                                android:text="456" />
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -261,6 +266,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:background="@drawable/text_biankuang_strok_orange"
                                 android:padding="2dp"
                                 android:text="可定" />
 
@@ -289,7 +295,8 @@
                     <ImageView
                         android:layout_width="200dp"
                         android:layout_height="200dp"
-                        app:srcCompat="@color/colorAccent" />
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/fenhuanshan" />
 
                     <LinearLayout
                         android:layout_width="0dp"
@@ -302,7 +309,8 @@
                             android:layout_height="40dp"
                             android:gravity="center_vertical"
                             android:paddingLeft="3dp"
-                            android:text="景点名称" />
+                            android:text="凤凰山"
+                            android:textSize="18sp" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -314,14 +322,14 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="标签一"
-                                android:layout_margin="3dp"/>
+                                android:layout_margin="3dp"
+                                android:text="凤凰山" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="标签二"
-                                android:layout_margin="3dp"/>
+                                android:layout_margin="3dp"
+                                android:text="辽宁" />
 
                         </LinearLayout>
 
@@ -329,7 +337,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="80dp"
                             android:padding="3dp"
-                            android:text="只是一段代码和效果图我们不知道怎么做到对一个Android界面的绘制,根据我对线性布局的简单理解,我认为是想用线性布局作出较好的布局效果主要可以这样用"/>
+                            android:text="凤凰山,位于辽宁省丹东凤城市,由东山和西山两大景区组成,最高峰“攒云峰”海拔836米,面积216平方公里,凤凰山是奉天四大名山之一,辽东地区第一名山。" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -359,6 +367,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:background="@drawable/text_biankuang_strok_orange"
                                 android:padding="2dp"
                                 android:text="可定" />
 
@@ -387,7 +396,8 @@
                     <ImageView
                         android:layout_width="200dp"
                         android:layout_height="200dp"
-                        app:srcCompat="@color/beige" />
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/yanguangdujiacun" />
 
                     <LinearLayout
                         android:layout_width="0dp"
@@ -400,7 +410,7 @@
                             android:layout_height="40dp"
                             android:gravity="center_vertical"
                             android:paddingLeft="3dp"
-                            android:text="景点名称" />
+                            android:text="亚布力阳光度假村" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -418,8 +428,8 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="标签二"
-                                android:layout_margin="3dp"/>
+                                android:layout_margin="3dp"
+                                android:text="度假村" />
 
                         </LinearLayout>
 
@@ -427,7 +437,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="80dp"
                             android:padding="3dp"
-                            android:text="只是一段代码和效果图我们不知道怎么做到对一个Android界面的绘制,根据我对线性布局的简单理解,我认为是想用线性布局作出较好的布局效果主要可以这样用"/>
+                            android:text="只是一段代码和效果图我们不知道怎么做到对一个Android界面的绘制,根据我对线性布局的简单理解。" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -441,7 +451,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
                                 android:gravity="center"
-                                android:text="488"/>
+                                android:text="312" />
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -457,6 +467,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:background="@drawable/text_biankuang_strok_orange"
                                 android:padding="2dp"
                                 android:text="可定" />
 
@@ -485,7 +496,8 @@
                     <ImageView
                         android:layout_width="200dp"
                         android:layout_height="200dp"
-                        app:srcCompat="@color/burlywood" />
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/zhongyandajie" />
 
                     <LinearLayout
                         android:layout_width="0dp"
@@ -498,7 +510,8 @@
                             android:layout_height="40dp"
                             android:gravity="center_vertical"
                             android:paddingLeft="3dp"
-                            android:text="景点名称" />
+                            android:text="中央大街"
+                            android:textSize="18sp" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -516,8 +529,8 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="标签二"
-                                android:layout_margin="3dp"/>
+                                android:layout_margin="3dp"
+                                android:text="哈尔滨" />
 
                         </LinearLayout>
 
@@ -525,7 +538,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="80dp"
                             android:padding="3dp"
-                            android:text="只是一段代码和效果图我们不知道怎么做到对一个Android界面的绘制,根据我对线性布局的简单理解,我认为是想用线性布局作出较好的布局效果主要可以这样用"/>
+                            android:text="中央大街是黑龙江省哈尔滨市很繁盛的一条商业步行街。" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -555,6 +568,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:background="@drawable/text_biankuang_strok_orange"
                                 android:padding="2dp"
                                 android:text="可定" />
 

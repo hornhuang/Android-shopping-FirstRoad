@@ -107,11 +107,12 @@
                             android:gravity="center_vertical"
                             android:orientation="horizontal">
 
-                            <de.hdodenhof.circleimageview.CircleImageView
+                            <ImageView
                                 android:layout_width="25dp"
                                 android:layout_height="25dp"
                                 android:layout_marginLeft="5dp"
-                                android:src="@color/tan" />
+                                android:scaleType="fitXY"
+                                android:src="@drawable/user_1" />
 
                             <TextView
                                 android:layout_width="0dp"
@@ -119,9 +120,9 @@
                                 android:layout_weight="1"
                                 android:gravity="center_vertical"
                                 android:padding="5dp"
-                                android:text="用户昵称"
-                                android:textSize="15sp"
-                                android:singleLine="true" />
+                                android:singleLine="true"
+                                android:text="雪地老爷子"
+                                android:textSize="15sp" />
 
                             <TextView
                                 android:layout_width="0dp"
@@ -129,9 +130,9 @@
                                 android:layout_weight="1"
                                 android:gravity="center_vertical"
                                 android:padding="5dp"
-                                android:text="25w 阅读"
-                                android:textSize="15sp"
-                                android:singleLine="true" />
+                                android:singleLine="true"
+                                android:text="6w 阅读"
+                                android:textSize="15sp" />
 
                         </LinearLayout>
 
@@ -189,11 +190,12 @@
                             android:gravity="center_vertical"
                             android:orientation="horizontal">
 
-                            <de.hdodenhof.circleimageview.CircleImageView
+                            <ImageView
                                 android:layout_width="25dp"
                                 android:layout_height="25dp"
                                 android:layout_marginLeft="5dp"
-                                android:src="@color/tan" />
+                                android:scaleType="fitXY"
+                                android:src="@drawable/user_2" />
 
                             <TextView
                                 android:layout_width="0dp"
@@ -201,9 +203,9 @@
                                 android:layout_weight="1"
                                 android:gravity="center_vertical"
                                 android:padding="5dp"
-                                android:text="用户昵称"
-                                android:textSize="15sp"
-                                android:singleLine="true" />
+                                android:singleLine="true"
+                                android:text="暴君"
+                                android:textSize="15sp" />
 
                             <TextView
                                 android:layout_width="0dp"
@@ -211,9 +213,9 @@
                                 android:layout_weight="1"
                                 android:gravity="center_vertical"
                                 android:padding="5dp"
-                                android:text="25w 阅读"
-                                android:textSize="15sp"
-                                android:singleLine="true" />
+                                android:singleLine="true"
+                                android:text="45w 阅读"
+                                android:textSize="15sp" />
 
                         </LinearLayout>
 
@@ -279,11 +281,12 @@
                             android:gravity="center_vertical"
                             android:orientation="horizontal">
 
-                            <de.hdodenhof.circleimageview.CircleImageView
+                            <ImageView
                                 android:layout_width="25dp"
                                 android:layout_height="25dp"
                                 android:layout_marginLeft="5dp"
-                                android:src="@color/tan" />
+                                android:scaleType="fitXY"
+                                android:src="@drawable/user_3" />
 
                             <TextView
                                 android:layout_width="0dp"
@@ -292,7 +295,7 @@
                                 android:gravity="center_vertical"
                                 android:padding="5dp"
                                 android:singleLine="true"
-                                android:text="用户昵称"
+                                android:text="阿银不说话"
                                 android:textSize="15sp" />
 
                             <TextView
@@ -302,7 +305,7 @@
                                 android:gravity="center_vertical"
                                 android:padding="5dp"
                                 android:singleLine="true"
-                                android:text="25w 阅读"
+                                android:text="34w 阅读"
                                 android:textSize="15sp" />
 
                         </LinearLayout>
@@ -361,11 +364,12 @@
                             android:gravity="center_vertical"
                             android:orientation="horizontal">
 
-                            <de.hdodenhof.circleimageview.CircleImageView
+                            <ImageView
                                 android:layout_width="25dp"
                                 android:layout_height="25dp"
                                 android:layout_marginLeft="5dp"
-                                android:src="@color/tan" />
+                                android:scaleType="fitXY"
+                                android:src="@drawable/user_4" />
 
                             <TextView
                                 android:layout_width="0dp"
@@ -374,7 +378,7 @@
                                 android:gravity="center_vertical"
                                 android:padding="5dp"
                                 android:singleLine="true"
-                                android:text="用户昵称"
+                                android:text="月中风"
                                 android:textSize="15sp" />
 
                             <TextView
@@ -384,7 +388,7 @@
                                 android:gravity="center_vertical"
                                 android:padding="5dp"
                                 android:singleLine="true"
-                                android:text="25w 阅读"
+                                android:text="23w 阅读"
                                 android:textSize="15sp" />
 
                         </LinearLayout>
@@ -450,11 +454,12 @@
                             android:gravity="center_vertical"
                             android:orientation="horizontal">
 
-                            <de.hdodenhof.circleimageview.CircleImageView
+                            <ImageView
                                 android:layout_width="25dp"
                                 android:layout_height="25dp"
                                 android:layout_marginLeft="5dp"
-                                android:src="@color/tan" />
+                                android:scaleType="fitXY"
+                                android:src="@drawable/user_5" />
 
                             <TextView
                                 android:layout_width="0dp"
@@ -462,9 +467,9 @@
                                 android:layout_weight="1"
                                 android:gravity="center_vertical"
                                 android:padding="5dp"
-                                android:text="用户昵称"
-                                android:textSize="15sp"
-                                android:singleLine="true" />
+                                android:singleLine="true"
+                                android:text="道济一"
+                                android:textSize="15sp" />
 
                             <TextView
                                 android:layout_width="0dp"
@@ -472,9 +477,9 @@
                                 android:layout_weight="1"
                                 android:gravity="center_vertical"
                                 android:padding="5dp"
-                                android:text="25w 阅读"
-                                android:textSize="15sp"
-                                android:singleLine="true" />
+                                android:singleLine="true"
+                                android:text="3w 阅读"
+                                android:textSize="15sp" />
 
                         </LinearLayout>
 
@@ -532,11 +537,12 @@
                             android:gravity="center_vertical"
                             android:orientation="horizontal">
 
-                            <de.hdodenhof.circleimageview.CircleImageView
+                            <ImageView
                                 android:layout_width="25dp"
                                 android:layout_height="25dp"
                                 android:layout_marginLeft="5dp"
-                                android:src="@color/tan" />
+                                android:scaleType="fitXY"
+                                android:src="@drawable/user_5" />
 
                             <TextView
                                 android:layout_width="0dp"
@@ -544,9 +550,9 @@
                                 android:layout_weight="1"
                                 android:gravity="center_vertical"
                                 android:padding="5dp"
-                                android:text="用户昵称"
-                                android:textSize="15sp"
-                                android:singleLine="true"/>
+                                android:singleLine="true"
+                                android:text="阿丽"
+                                android:textSize="15sp" />
 
                             <TextView
                                 android:layout_width="0dp"

@@ -1,9 +1,8 @@
-package com.example.firstroad.itemdetails;
+package com.example.firstroad.pages.routes.routes;
 
 import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
@@ -17,8 +16,10 @@ import com.youth.banner.loader.ImageLoader;
 import java.util.ArrayList;
 import java.util.List;
 
-public class RoutesDetailsActivity extends AppCompatActivity {
-
+/**路线
+ * 长白山
+ */
+public class RoutesRoutes_chang_Bai_Shan extends AppCompatActivity {
 
     private MainHomeFragment.OnFragmentInteractionListener mListener;
 
@@ -27,7 +28,7 @@ public class RoutesDetailsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_routes_details);
+        setContentView(R.layout.routes_routes_chang_bai_shan);
 
         iniBanner();
     }

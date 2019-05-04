@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.firstroad">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/appicon"
@@ -9,20 +11,24 @@
         android:roundIcon="@mipmap/appicon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".itemdetails.ClopediaDetailMineActivity"></activity>
-        <activity android:name=".itemdetails.OrdersDetailsActivity" />
-        <activity android:name=".itemdetails.ClopediaDetailActivity" />
-        <activity android:name=".itemdetails.RoutesPlayDetailsActivity" />
-        <activity android:name=".itemdetails.RoutesDetailsActivity" />
-        <activity android:name=".itemdetails.GoodsDetailsActivity" />
-        <activity android:name=".activities.SplashActivity">
+        <activity android:name=".pages.clopedia.Clopediahuashupihua"></activity>
+        <activity android:name=".pages.homes.goods.homes_goods_ma_nao_diao_ke" />
+        <activity android:name=".pages.homes.clopedias.Home_Clopedia_zhen_zhu_qiu" />
+        <activity android:name=".pages.mines.clopedias.Mines_Clopedia_Ha_aEr_Bin_Bin_Xue_Da_Shi_Jie" />
+        <activity android:name=".pages.mines.MinesFunctionsOrders" />
+        <activity android:name=".pages.routes.clopedias.Routes_Clopedia_Man_Zu_Ban_Jin_Jie" />
+        <activity android:name=".pages.routes.Routes_Funtions_Play" />
+        <activity android:name=".pages.routes.routes.RoutesRoutes_chang_Bai_Shan" />
+        <activity android:name=".pages.goods.Goods_haerbin_hongchan" />
+        <activity android:name=".activities.SplashActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.MainActivity" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

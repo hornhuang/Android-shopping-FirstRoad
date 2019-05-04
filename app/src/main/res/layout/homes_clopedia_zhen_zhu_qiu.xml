@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context=".itemdetails.ClopediaDetailActivity">
+    tools:context=".pages.homes.clopedias.Home_Clopedia_zhen_zhu_qiu">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,13 +15,13 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/huashupihua_3" />
+            app:srcCompat="@drawable/zhenzhuqiu_3" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp"
-            android:text="黑龙江省非物质文化遗产--桦树皮画"
+            android:text="满族珍珠球"
             android:textSize="20dp" />
 
         <TextView
@@ -29,7 +29,7 @@
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:paddingLeft="10dp"
-            android:text="1,025阅读|12评论"/>
+            android:text="21,375阅读|12评论"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -38,7 +38,7 @@
             android:layout_marginLeft="10dp"
             android:padding="10dp"
             android:background="@drawable/text_biankuang_strok_purple"
-            android:text="民间艺术" />
+            android:text="体育活动" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -81,14 +81,14 @@
             android:layout_height="300dp"
             android:padding="30dp"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/huashupihua_1" />
+            app:srcCompat="@drawable/zhenzhuqiu_5" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:textSize="15sp"
-            android:text="桦皮画\n是北方民族古老的艺术\n自从白桦成为人类远古的生产\n生活资源n\原始的桦皮画艺术也随之产生了\n他们或用石块打凿\n或用原木雕刻n\或用泥土捏造\n或用皮革缝制\n而更多的是用纤维细密n\纵横无痕\n薄层如纸的白桦的里皮刻画出人类最初的生活和想像。"/>
+            android:text="扶余县是满族的故乡\n满族的祖先和其他民族一样\n创造了自己的体育项目——珍珠球\n珍珠球\n亦称“采珠球”\n初名“扔核”\n满语“尼楚赫”。"/>
 
 
         <ImageView
@@ -96,49 +96,49 @@
             android:layout_height="300dp"
             android:padding="30dp"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/huashupihua_2" />
+            app:srcCompat="@drawable/zhenzhuqiu_1" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:textSize="15sp"
-            android:text="桦皮画最大特点是集剪、刻、雕、烫\n画等多种手法成画\n利用多年（30—50年）树龄白桦树剥落的树皮\n经杀菌、漂白、剥皮等多种手法加工制成\n色彩多以烫烙为主\n永不退色，适合收藏\n现已被国家认定为首批非物质文化遗产之一。"/>
+            android:text="采珍珠最初是作为一种游戏\n在江河的岸边上玩的是“蚌”\n后来演变为布口袋\n牛毛球或彩球代表珍珠\n场地划分水区\n蛤蚌区和“威呼”（满语“船”）区。"/>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="300dp"
             android:padding="30dp"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/huashupihua_4" />
+            app:srcCompat="@drawable/zhenzhuqiu_6" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:textSize="15sp"
-            android:text="桦皮画不仅在我国造型艺术史上占有重要位置\n而且在世界文化史上也有着重要的地位\n它体现着鄂伦春民族对五大连池美好风光的无限热爱\n由于鄂伦春族人民与桦树皮文化密切相连\n所以在很大程度上\n桦树皮制品成为了鄂伦春民族的又一特征"/>
+            android:text="珍珠球的运球\n传递、掩护、投篮\n罚球等战略战术和篮球差不多\n但由于得分区的持网队员可以灵活移动\n增加了投篮的难度。"/>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="300dp"
             android:padding="30dp"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/huashupihua" />
+            app:srcCompat="@drawable/zhenzhuqiu_4" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:textSize="15sp"
-            android:text="这种画颜色其少如无\n但表现力相当丰富\n之所以取得如此不可以求功而自然生动的效果\n除去艺人观察自然事物的明敏精微之外\n主要在善于于运用对比\n层次和变换等形式美的法则"/>
+            android:text="珍珠球的现行场地长30\n宽15米\n中线两侧划三条线\n依次为水区\n限制区\n封锁区和得分区\n比赛在两队之间进行\n每队出场6人\n其中一位队员站在得分区\n手持一个直径30厘米\n高40厘米的网兜充当“渔网”\n用网兜接住本队员投来的球即得1分。"/>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="300dp"
             android:padding="30dp"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/huashupihua_5" />
+            app:srcCompat="@drawable/zhenzhuqiu_2" />
 
         <LinearLayout
             android:layout_width="match_parent"

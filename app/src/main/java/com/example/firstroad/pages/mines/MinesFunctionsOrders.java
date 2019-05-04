@@ -1,15 +1,18 @@
-package com.example.firstroad.itemdetails;
+package com.example.firstroad.pages.mines;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.example.firstroad.R;
 
-public class ClopediaDetailMineActivity extends AppCompatActivity {
+/**我的
+ * 订单
+ */
+public class MinesFunctionsOrders extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_clopedia_detail_mine);
+        setContentView(R.layout.mines_functions_orders);
     }
 }

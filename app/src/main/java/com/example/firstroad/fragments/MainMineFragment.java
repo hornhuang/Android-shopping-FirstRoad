@@ -1,6 +1,5 @@
 package com.example.firstroad.fragments;
 
-import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -11,9 +10,8 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
 import com.example.firstroad.R;
-import com.example.firstroad.itemdetails.ClopediaDetailActivity;
-import com.example.firstroad.itemdetails.ClopediaDetailMineActivity;
-import com.example.firstroad.itemdetails.OrdersDetailsActivity;
+import com.example.firstroad.pages.mines.clopedias.Mines_Clopedia_Ha_aEr_Bin_Bin_Xue_Da_Shi_Jie;
+import com.example.firstroad.pages.mines.MinesFunctionsOrders;
 
 public class MainMineFragment extends Fragment {
 
@@ -57,7 +55,7 @@ public class MainMineFragment extends Fragment {
         linearLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getActivity(), ClopediaDetailMineActivity.class));
+                startActivity(new Intent(getActivity(), Mines_Clopedia_Ha_aEr_Bin_Bin_Xue_Da_Shi_Jie.class));
             }
         });
 
@@ -65,7 +63,7 @@ public class MainMineFragment extends Fragment {
         linearLayout1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getActivity(), OrdersDetailsActivity.class));
+                startActivity(new Intent(getActivity(), MinesFunctionsOrders.class));
             }
         });
         return view;
