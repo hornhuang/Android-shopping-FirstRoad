@@ -227,7 +227,7 @@
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:scaleType="fitXY"
-                        app:srcCompat="@drawable/good" />
+                        app:srcCompat="@drawable/good_grey" />
 
                     <TextView
                         android:layout_width="30dp"

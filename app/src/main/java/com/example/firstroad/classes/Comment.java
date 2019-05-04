@@ -6,6 +6,7 @@ public class Comment {
     private String authorId;      // 用户名称
     private String commentContent;// 评论内容
     private int praiseNum;        // 点赞数目
+    private boolean isPraised = false;//判断是否点赞
 
     /*
     构造方法
@@ -51,5 +52,13 @@ public class Comment {
 
     public void setPraiseNum(int praiseNum) {
         this.praiseNum = praiseNum;
+    }
+
+    public boolean isPraised() {
+        return isPraised;
+    }
+
+    public void setPraised(boolean praised) {
+        isPraised = praised;
     }
 }

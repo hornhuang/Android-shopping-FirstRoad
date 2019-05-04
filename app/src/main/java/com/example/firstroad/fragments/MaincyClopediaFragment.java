@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
 import com.example.firstroad.R;
-import com.example.firstroad.pages.clopedia.Clopediahuashupihua;
+import com.example.firstroad.pages.clopedia.colopedia.Clopediahuashupihua;
 
 
 public class MaincyClopediaFragment extends Fragment {

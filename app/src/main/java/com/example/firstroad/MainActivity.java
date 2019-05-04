@@ -10,6 +10,7 @@ import android.view.MenuItem;
 import android.widget.Toast;
 
 import com.example.firstroad.activities.BaseActivity;
+import com.example.firstroad.classes.Comment;
 import com.example.firstroad.fragments.MainHomeFragment;
 import com.example.firstroad.fragments.MainGoodsFragment;
 import com.example.firstroad.fragments.MaincyClopediaFragment;
@@ -17,7 +18,15 @@ import com.example.firstroad.fragments.MainRoutesFragment;
 import com.example.firstroad.fragments.MainMineFragment;
 import com.example.firstroad.utils.BottomNavigationViewHelper;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MainActivity extends BaseActivity {
+
+    /*
+    暂存数据
+     */
+    public static List<Comment>  comments = new ArrayList<>();
 
     /*
     碎片

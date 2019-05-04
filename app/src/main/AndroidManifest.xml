@@ -11,7 +11,7 @@
         android:roundIcon="@mipmap/appicon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".pages.clopedia.Clopediahuashupihua"></activity>
+        <activity android:name=".pages.clopedia.colopedia.Clopediahuashupihua"></activity>
         <activity android:name=".pages.homes.goods.homes_goods_ma_nao_diao_ke" />
         <activity android:name=".pages.homes.clopedias.Home_Clopedia_zhen_zhu_qiu" />
         <activity android:name=".pages.mines.clopedias.Mines_Clopedia_Ha_aEr_Bin_Bin_Xue_Da_Shi_Jie" />
