@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.animation.AlphaAnimation;
 import android.widget.ImageView;
 
-import com.example.firstroad.MainActivity;
 import com.example.firstroad.R;
 
 public class SplashActivity extends Activity {

@@ -2,16 +2,26 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.firstroad">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- 允许联网 -->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- 获取GSM（2g）、WCDMA（联通3g）等网络状态的信息 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- 获取wifi网络状态的信息 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- 保持CPU 运转，屏幕和键盘灯有可能是关闭的,用于文件上传和下载 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- 获取sd卡写的权限，用于文件上传和下载 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- 允许读取手机状态 用于创建BmobInstallation -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
+        android:name=".App"
         android:allowBackup="true"
         android:icon="@mipmap/appicon"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/appicon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".pages.clopedia.colopedia.Clopediahuashupihua"></activity>
+        <activity android:name=".activities.LogUpActivity" />
+        <activity android:name=".activities.LogInActivity" />
+        <activity android:name=".pages.clopedia.colopedia.Clopediahuashupihua" />
         <activity android:name=".pages.homes.goods.homes_goods_ma_nao_diao_ke" />
         <activity android:name=".pages.homes.clopedias.Home_Clopedia_zhen_zhu_qiu" />
         <activity android:name=".pages.mines.clopedias.Mines_Clopedia_Ha_aEr_Bin_Bin_Xue_Da_Shi_Jie" />
@@ -20,7 +30,8 @@
         <activity android:name=".pages.routes.Routes_Funtions_Play" />
         <activity android:name=".pages.routes.routes.RoutesRoutes_chang_Bai_Shan" />
         <activity android:name=".pages.goods.Goods_haerbin_hongchan" />
-        <activity android:name=".activities.SplashActivity"
+        <activity
+            android:name=".activities.SplashActivity"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,7 +39,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name=".activities.MainActivity" />
+
+        <provider
+            android:name="cn.bmob.v3.util.BmobContentProvider"
+            android:authorities="com.example.firstroad.BmobContentProvider" />
     </application>
 
 </manifest>

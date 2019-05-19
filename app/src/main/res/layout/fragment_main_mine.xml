@@ -39,15 +39,6 @@
                         android:orientation="horizontal"
                         android:paddingRight="20dp">
 
-                        <ImageView
-                            android:layout_width="60dp"
-                            android:layout_height="60dp"
-                            android:scaleType="fitXY"
-                            android:paddingTop="20sp"
-                            android:paddingBottom="20sp"
-                            android:paddingRight="40sp"
-                            android:src="@drawable/left" />
-
                         <TextView
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
@@ -57,15 +48,6 @@
                             android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
-
-                        <ImageView
-                            android:layout_width="60dp"
-                            android:layout_height="60dp"
-                            android:scaleType="fitXY"
-                            android:src="@drawable/menu"
-                            android:paddingLeft="36sp"
-                            android:paddingTop="18sp"
-                            android:paddingBottom="18sp" />
 
                     </LinearLayout>
 
@@ -79,12 +61,14 @@
                 android:background="?android:listDivider"/>
 
             <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/head_icon"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_marginTop="20dp"
-                android:src="@mipmap/appicon"/>
+                android:src="@mipmap/appicon" />
 
             <TextView
+                android:id="@+id/user_name"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:gravity="center"
@@ -220,14 +204,6 @@
                     android:text="我发布的攻略"
                     android:textSize="24sp"
                     android:textStyle="bold" />
-
-                <ImageView
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
-                    android:layout_margin="10dp"
-                    android:scaleType="fitXY"
-                    android:padding="15sp"
-                    android:src="@drawable/fenxiang_dark" />
 
             </LinearLayout>
 

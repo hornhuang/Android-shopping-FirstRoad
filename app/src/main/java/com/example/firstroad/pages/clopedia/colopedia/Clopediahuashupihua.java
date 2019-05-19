@@ -6,9 +6,10 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ScrollView;
 import android.widget.TextView;
 
-import com.example.firstroad.MainActivity;
+import com.example.firstroad.activities.MainActivity;
 import com.example.firstroad.R;
 import com.example.firstroad.classes.Comment;
 import com.example.firstroad.pages.clopedia.ColopediaAdapter;
@@ -21,6 +22,7 @@ import java.util.List;
  */
 public class Clopediahuashupihua extends AppCompatActivity implements View.OnClickListener {
 
+    private ScrollView scrollView;
     private RecyclerView recyclerView;
     private List<Comment> mComment;
     private TextView commentSubmit;
@@ -39,6 +41,7 @@ public class Clopediahuashupihua extends AppCompatActivity implements View.OnCli
     }
 
     private void iniViews(){
+        scrollView = findViewById(R.id.scrollView);
         mComment = new ArrayList<>();
         recyclerView = (RecyclerView) findViewById(R.id.colopedia_recycler);
         commentSubmit = (TextView) findViewById(R.id.comment_submit);
@@ -67,6 +70,17 @@ public class Clopediahuashupihua extends AppCompatActivity implements View.OnCli
                     content, 0));
                 MainActivity.comments = mComment;
                 adapter.notifyDataSetChanged();
+                new Thread(){
+                    @Override
+                    public void run() {
+                        try {
+                            sleep(1000);
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
+                        scrollView.fullScroll(View.FOCUS_DOWN);
+                    }
+                }.start();
                 break;
 
             default:

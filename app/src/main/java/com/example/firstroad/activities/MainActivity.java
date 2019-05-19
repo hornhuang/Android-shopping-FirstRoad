@@ -1,4 +1,4 @@
-package com.example.firstroad;
+package com.example.firstroad.activities;
 
 import android.annotation.SuppressLint;
 import android.support.annotation.NonNull;
@@ -9,8 +9,9 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import com.example.firstroad.activities.BaseActivity;
+import com.example.firstroad.R;
 import com.example.firstroad.classes.Comment;
+import com.example.firstroad.classes.User;
 import com.example.firstroad.fragments.MainHomeFragment;
 import com.example.firstroad.fragments.MainGoodsFragment;
 import com.example.firstroad.fragments.MaincyClopediaFragment;
@@ -21,7 +22,11 @@ import com.example.firstroad.utils.BottomNavigationViewHelper;
 import java.util.ArrayList;
 import java.util.List;
 
+import cn.bmob.v3.BmobUser;
+
 public class MainActivity extends BaseActivity {
+
+    private User user;
 
     /*
     暂存数据
@@ -99,12 +104,16 @@ public class MainActivity extends BaseActivity {
     private Runnable mMineRunnable = new Runnable() {
         @Override
         public void run() {
-            if (mMineFrag){
-                mMineFragment = new MainMineFragment();
+            if (BmobUser.isLogin()){
+                if (mMineFrag){
+                    mMineFragment = new MainMineFragment();
+                }
+                transaction = getSupportFragmentManager().beginTransaction();
+                transaction.replace(R.id.main_fragment, mMineFragment);
+                transaction.commit();
+            }else {
+                LogInActivity.acrionStart(MainActivity.this);
             }
-            transaction = getSupportFragmentManager().beginTransaction();
-            transaction.replace(R.id.main_fragment, mMineFragment);
-            transaction.commit();
         }
     };
 
@@ -145,6 +154,10 @@ public class MainActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        if (BmobUser.isLogin()){
+            user = BmobUser.getCurrentUser(User.class);
+        }
 
         transaction = getSupportFragmentManager().beginTransaction();
 

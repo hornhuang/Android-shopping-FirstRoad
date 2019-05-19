@@ -5,7 +5,7 @@ import android.widget.Toast;
 
 public class MyToast {
 
-    public MyToast(AppCompatActivity activity, String toasts){
+    public static void MyToast(AppCompatActivity activity, String toasts){
         Toast.makeText(activity, toasts, Toast.LENGTH_SHORT).show();
     }
 
